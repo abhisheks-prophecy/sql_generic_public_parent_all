@@ -1,0 +1,240 @@
+{
+  "macro_qohXr717" : {
+    "name" : "qa_concat_macro_base",
+    "macroId" : "macro_qohXr717",
+    "macroType" : "expression",
+    "definition" : "concat('{{param1_string_only}}', 'hellomain')",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "param1_string_only",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "'hello'"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  },
+  "macro_rYB8StnI" : {
+    "name" : "qa_macro_call_another_macro_base",
+    "macroId" : "macro_rYB8StnI",
+    "macroType" : "expression",
+    "definition" : "concat({{ SQL_BaseGitDepProjectAllFinal.qa_concat_macro_base(final_param_string_only) }}, '{{final_param_string_only}}')",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "final_param_string_only",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "'random data'"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  },
+  "macro_pmz9lccL" : {
+    "name" : "qa_macro_call_another_macro_base_column",
+    "macroId" : "macro_pmz9lccL",
+    "macroType" : "expression",
+    "definition" : "concat({{ SQL_BaseGitDepProjectAllFinal.qa_concat_macro_base_column(param_column) }}, {{param_column}})",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "param_column",
+        "kind" : {
+          "type" : "unknown"
+        },
+        "optional" : false,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  },
+  "macro_Kj4a6yaF" : {
+    "name" : "multi_macro_expressions_base",
+    "macroId" : "macro_Kj4a6yaF",
+    "macroType" : "expression",
+    "definition" : "concat({{param_float}} + {{param_array[0]}}, 'hello')",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "param_float",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "12"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      }, {
+        "name" : "param_array",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "[1, 2, 3]"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      }, {
+        "name" : "param_dict",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "[1, 2, 3]"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  },
+  "macro_zsUIjzSz" : {
+    "name" : "_qa_concat_param_type_base",
+    "macroId" : "macro_zsUIjzSz",
+    "macroType" : "expression",
+    "definition" : "concat('{{input_string}}', {{int_param}})",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "input_string",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "'hello'",
+          "actualValue" : "unknown"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      }, {
+        "name" : "int_param_or_col",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "10",
+          "actualValue" : "unknown"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "description" : "",
+    "staleState" : "none",
+    "propertiesFile" : {
+      "name" : "functions",
+      "content" : "---\nversion: 2\nmacros:\n- name: \"_qa_concat_param_type_base\"\n  description: \"\"\n  arguments:\n  - name: \"input_string\"\n    type: \"unknown\"\n  - name: \"int_param_or_col\"\n    type: \"unknown\"\n  macroType: \"expression\"\n",
+      "path" : "SQL_BaseGitDepProjectAllFinal/macros/functions/functions.yml",
+      "projectConfiguration" : null,
+      "folderConfiguration" : {
+        "version" : 2,
+        "macros" : [ {
+          "name" : "_qa_concat_param_type_base",
+          "description" : "",
+          "arguments" : [ {
+            "name" : "input_string",
+            "type" : "unknown"
+          }, {
+            "name" : "int_param_or_col",
+            "type" : "unknown"
+          } ],
+          "macroType" : "expression"
+        } ]
+      },
+      "packagesYml" : null
+    }
+  },
+  "macro_j5LzUUEH" : {
+    "name" : "qa_concat_macro_base_column",
+    "macroId" : "macro_j5LzUUEH",
+    "macroType" : "expression",
+    "definition" : "concat({{param1_column}}, 'hellomain')",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "param1_column",
+        "kind" : {
+          "type" : "unknown"
+        },
+        "optional" : false,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  },
+  "macro_gWFOdify" : {
+    "name" : "_round_function_base",
+    "macroId" : "macro_gWFOdify",
+    "macroType" : "expression",
+    "definition" : "ROUND({{n1}}, {{scale}})",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "n1",
+        "kind" : {
+          "type" : "unknown"
+        },
+        "optional" : false,
+        "isWorkflowNodeConfiguration" : false
+      }, {
+        "name" : "scale",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "2"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  },
+  "macro_oRxGpt6C" : {
+    "name" : "_qa_concat_string_cols",
+    "macroId" : "macro_oRxGpt6C",
+    "macroType" : "expression",
+    "definition" : "concat({{input_col1}}, {{input_col2}})",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "input_col1",
+        "kind" : {
+          "type" : "unknown"
+        },
+        "optional" : false,
+        "isWorkflowNodeConfiguration" : false
+      }, {
+        "name" : "input_col2",
+        "kind" : {
+          "type" : "unknown"
+        },
+        "optional" : false,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  },
+  "macro_y5v7F3lL" : {
+    "name" : "round_function_base",
+    "macroId" : "macro_y5v7F3lL",
+    "macroType" : "expression",
+    "definition" : "ROUND({{n1}}, {{scale}})",
+    "parameters" : {
+      "type" : "record",
+      "fields" : [ {
+        "name" : "n1",
+        "kind" : {
+          "type" : "unknown"
+        },
+        "optional" : false,
+        "isWorkflowNodeConfiguration" : false
+      }, {
+        "name" : "scale",
+        "kind" : {
+          "type" : "unknown",
+          "value" : "2"
+        },
+        "optional" : true,
+        "isWorkflowNodeConfiguration" : false
+      } ]
+    },
+    "staleState" : "none"
+  }
+}

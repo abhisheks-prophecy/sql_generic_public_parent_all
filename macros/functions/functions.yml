@@ -1,0 +1,11 @@
+---
+version: 2
+macros:
+- name: "_qa_concat_param_type_base"
+  description: ""
+  arguments:
+  - name: "input_string"
+    type: "unknown"
+  - name: "int_param_or_col"
+    type: "unknown"
+  macroType: "expression"

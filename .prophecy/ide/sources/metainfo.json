@@ -1,0 +1,20 @@
+{
+  "name" : "SQL_BaseGitDepProjectAllFinal",
+  "fileSystem" : {
+    "type" : "Folder",
+    "name" : "",
+    "children" : { },
+    "path" : "",
+    "editable" : true
+  },
+  "providerType" : "databricks",
+  "fabricId" : "5286",
+  "prophecyIDEFolder" : {
+    "name" : "",
+    "children" : { },
+    "path" : "",
+    "editable" : true
+  },
+  "dependenciesContainer" : { },
+  "frontEndLanguage" : "sql"
+}
