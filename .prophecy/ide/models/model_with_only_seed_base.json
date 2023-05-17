@@ -134,8 +134,8 @@
           },
           "alias" : "c_macro2"
         } ],
-        "activeTab" : "conditions",
-        "columnsSelector" : [ ],
+        "activeTab" : "expressions",
+        "columnsSelector" : [ "irlL6IBH##country_code", "M3bUbaLn##code_1", "irlL6IBH##country_code", "irlL6IBH##country_label", "M3bUbaLn##code_1", "M3bUbaLn##service_label_1" ],
         "headAlias" : "in0"
       },
       "ports" : {
@@ -215,7 +215,7 @@
       "component" : "TargetModel",
       "metadata" : {
         "label" : "model_with_only_seed_base",
-        "x" : 520,
+        "x" : 560,
         "y" : 220,
         "phase" : 0,
         "macroDependencies" : [ ]
