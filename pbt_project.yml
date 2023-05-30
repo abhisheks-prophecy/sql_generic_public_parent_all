@@ -21,6 +21,24 @@ subgraphs: {}
 sqlModels:
   .prophecy/metadata/sqlmodels/model_with_only_seed_base:
     name: model_with_only_seed_base
+    schema:
+      providerType: Databricks
+      fields:
+      - name: country_code
+        dataType:
+          type: String
+      - name: country_label
+        dataType:
+          type: String
+      - name: code_1
+        dataType:
+          type: String
+      - name: service_label_1
+        dataType:
+          type: String
+      - name: c_macro2
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -344,6 +362,51 @@ sqlMacros:
 sqlSeeds:
   .prophecy/metadata/sqlseeds/electronic_cards_transactions:
     name: electronic_cards_transactions
+    schema:
+      providerType: Databricks
+      fields:
+      - name: Series_reference
+        dataType:
+          type: String
+      - name: Period_1
+        dataType:
+          type: Float
+      - name: Data_value_1
+        dataType:
+          type: Float
+      - name: Suppressed_1
+        dataType:
+          type: String
+      - name: STATUS_1
+        dataType:
+          type: String
+      - name: UNITS_1
+        dataType:
+          type: String
+      - name: Magnitude_1
+        dataType:
+          type: Integer
+      - name: Subject_1
+        dataType:
+          type: String
+      - name: Group_1
+        dataType:
+          type: String
+      - name: Series_title_1
+        dataType:
+          type: String
+      - name: Series_title_2
+        dataType:
+          type: String
+      - name: Series_title_3
+        dataType:
+          type: String
+      - name: Series_title_4
+        dataType:
+          type: String
+      - name: Series_title_5
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -352,6 +415,51 @@ sqlSeeds:
     modifiedAt: '2023-04-16 04:42:39'
   .prophecy/metadata/sqlseeds/economic_survey_manufacturing:
     name: economic_survey_manufacturing
+    schema:
+      providerType: Databricks
+      fields:
+      - name: Series_reference
+        dataType:
+          type: String
+      - name: Period_1
+        dataType:
+          type: Float
+      - name: Data_value
+        dataType:
+          type: Float
+      - name: Suppressed_1
+        dataType:
+          type: String
+      - name: STATUS_1
+        dataType:
+          type: String
+      - name: UNITS_1
+        dataType:
+          type: String
+      - name: Magnitude_1
+        dataType:
+          type: Integer
+      - name: Subject_1
+        dataType:
+          type: String
+      - name: Group_1
+        dataType:
+          type: String
+      - name: Series_title_1
+        dataType:
+          type: String
+      - name: Series_title_2
+        dataType:
+          type: String
+      - name: Series_title_3
+        dataType:
+          type: String
+      - name: Series_title_4
+        dataType:
+          type: String
+      - name: Series_title_5
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -360,6 +468,24 @@ sqlSeeds:
     modifiedAt: '2023-04-16 04:41:50'
   .prophecy/metadata/sqlseeds/goods_classification:
     name: goods_classification
+    schema:
+      providerType: Databricks
+      fields:
+      - name: NZHSC_Level_2_Code_HS4
+        dataType:
+          type: Integer
+      - name: NZHSC_Level_1_Code_HS2
+        dataType:
+          type: Integer
+      - name: NZHSC_Level_2
+        dataType:
+          type: String
+      - name: NZHSC_Level_1
+        dataType:
+          type: String
+      - name: Status_HS4
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -368,6 +494,195 @@ sqlSeeds:
     modifiedAt: '2023-04-16 04:42:04'
   .prophecy/metadata/sqlseeds/epl_data:
     name: epl_data
+    schema:
+      providerType: Databricks
+      fields:
+      - name: Div_1
+        dataType:
+          type: String
+      - name: Date_1
+        dataType:
+          type: String
+      - name: HomeTeam_1
+        dataType:
+          type: String
+      - name: AwayTeam_1
+        dataType:
+          type: String
+      - name: FTHG_1
+        dataType:
+          type: Integer
+      - name: FTAG_1
+        dataType:
+          type: Integer
+      - name: FTR_1
+        dataType:
+          type: String
+      - name: HTHG_1
+        dataType:
+          type: Integer
+      - name: HTAG_1
+        dataType:
+          type: Integer
+      - name: HTR_1
+        dataType:
+          type: String
+      - name: Referee_1
+        dataType:
+          type: String
+      - name: HS_1
+        dataType:
+          type: Integer
+      - name: AS_1
+        dataType:
+          type: Integer
+      - name: HST_1
+        dataType:
+          type: Integer
+      - name: AST_1
+        dataType:
+          type: Integer
+      - name: HF_1
+        dataType:
+          type: Integer
+      - name: AF_1
+        dataType:
+          type: Integer
+      - name: HC_1
+        dataType:
+          type: Integer
+      - name: AC_1
+        dataType:
+          type: Integer
+      - name: HY_1
+        dataType:
+          type: Integer
+      - name: AY_1
+        dataType:
+          type: Integer
+      - name: HR_1
+        dataType:
+          type: Integer
+      - name: AR_1
+        dataType:
+          type: Integer
+      - name: B365H_1
+        dataType:
+          type: Float
+      - name: B365D_1
+        dataType:
+          type: Float
+      - name: B365A_1
+        dataType:
+          type: Float
+      - name: BWH_1
+        dataType:
+          type: Float
+      - name: BWD_1
+        dataType:
+          type: Float
+      - name: BWA_1
+        dataType:
+          type: Float
+      - name: IWH_1
+        dataType:
+          type: Float
+      - name: IWD_1
+        dataType:
+          type: Float
+      - name: IWA_1
+        dataType:
+          type: Float
+      - name: PSH_1
+        dataType:
+          type: Float
+      - name: PSD_1
+        dataType:
+          type: Float
+      - name: PSA_1
+        dataType:
+          type: Float
+      - name: WHH_1
+        dataType:
+          type: Float
+      - name: WHD_1
+        dataType:
+          type: Float
+      - name: WHA_1
+        dataType:
+          type: Float
+      - name: VCH_1
+        dataType:
+          type: Float
+      - name: VCD_1
+        dataType:
+          type: Float
+      - name: VCA_1
+        dataType:
+          type: Float
+      - name: Bb1X2_1
+        dataType:
+          type: Integer
+      - name: BbMxH_1
+        dataType:
+          type: Float
+      - name: BbAvH_1
+        dataType:
+          type: Float
+      - name: BbMxD_1
+        dataType:
+          type: Float
+      - name: BbAvD_1
+        dataType:
+          type: Float
+      - name: BbMxA_1
+        dataType:
+          type: Float
+      - name: BbAvA_1
+        dataType:
+          type: Float
+      - name: BbOU_1
+        dataType:
+          type: Integer
+      - name: BbMx_2_5
+        dataType:
+          type: Float
+      - name: BbAv_2_5
+        dataType:
+          type: Float
+      - name: BbMx_2_5
+        dataType:
+          type: Float
+      - name: BbAv_2_5
+        dataType:
+          type: Float
+      - name: BbAH_1
+        dataType:
+          type: Integer
+      - name: BbAHh_1
+        dataType:
+          type: Float
+      - name: BbMxAHH_1
+        dataType:
+          type: Float
+      - name: BbAvAHH_1
+        dataType:
+          type: Float
+      - name: BbMxAHA_1
+        dataType:
+          type: Float
+      - name: BbAvAHA_1
+        dataType:
+          type: Float
+      - name: PSCH_1
+        dataType:
+          type: Float
+      - name: PSCD_1
+        dataType:
+          type: Float
+      - name: PSCA_1
+        dataType:
+          type: Float
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -376,6 +691,51 @@ sqlSeeds:
     modifiedAt: '2023-04-16 04:40:34'
   .prophecy/metadata/sqlseeds/business_financial_data:
     name: business_financial_data
+    schema:
+      providerType: Databricks
+      fields:
+      - name: Series_reference
+        dataType:
+          type: String
+      - name: Period1
+        dataType:
+          type: Float
+      - name: Data_value
+        dataType:
+          type: Float
+      - name: Suppressed1
+        dataType:
+          type: String
+      - name: STATUS1
+        dataType:
+          type: String
+      - name: UNITS1
+        dataType:
+          type: String
+      - name: Magnitude_1
+        dataType:
+          type: Integer
+      - name: Subject_1
+        dataType:
+          type: String
+      - name: Group_1
+        dataType:
+          type: String
+      - name: Series_title_1
+        dataType:
+          type: String
+      - name: Series_title_2
+        dataType:
+          type: String
+      - name: Series_title_3
+        dataType:
+          type: String
+      - name: Series_title_4
+        dataType:
+          type: String
+      - name: Series_title_5
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -384,6 +744,39 @@ sqlSeeds:
     modifiedAt: '2023-04-16 04:42:22'
   .prophecy/metadata/sqlseeds/annual_enterprise:
     name: annual_enterprise
+    schema:
+      providerType: Databricks
+      fields:
+      - name: Year_1
+        dataType:
+          type: Integer
+      - name: Industry_aggregation_NZSIOC
+        dataType:
+          type: String
+      - name: Industry_code_NZSIOC
+        dataType:
+          type: Integer
+      - name: Industry_name_NZSIOC
+        dataType:
+          type: String
+      - name: Units_1
+        dataType:
+          type: String
+      - name: Variable_code_1
+        dataType:
+          type: String
+      - name: Variable_name_1
+        dataType:
+          type: String
+      - name: Variable_category_1
+        dataType:
+          type: String
+      - name: Value_1
+        dataType:
+          type: String
+      - name: Industry_code_ANZSIC06
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -392,6 +785,15 @@ sqlSeeds:
     modifiedAt: '2023-04-16 16:18:21'
   .prophecy/metadata/sqlseeds/country_classification:
     name: country_classification
+    schema:
+      providerType: Databricks
+      fields:
+      - name: country_code
+        dataType:
+          type: String
+      - name: country_label
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -400,6 +802,15 @@ sqlSeeds:
     modifiedAt: '2023-04-16 04:41:30'
   .prophecy/metadata/sqlseeds/service_classification:
     name: service_classification
+    schema:
+      providerType: Databricks
+      fields:
+      - name: code_1
+        dataType:
+          type: String
+      - name: service_label_1
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
