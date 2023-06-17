@@ -1,3 +1,10 @@
+{{
+  config({    
+    "materialized": "view",
+    "pre_hook": ["drop view if exists model_with_only_seed_base"]
+  })
+}}
+
 WITH country_classification AS (
 
   SELECT * 
@@ -29,6 +36,15 @@ Join_1 AS (
 
 )
 
-SELECT *
+SELECT 
+  Join_1.country_code,
+  Join_1.country_label,
+  Join_1.code_1,
+  Join_1.service_label_1,
+  Join_1.c_macro2
 
-FROM Join_1
+FROM Join_1, service_classification
+
+WHERE service_classification.service_label_1 != Join_1.country_code
+
+LIMIT 100
