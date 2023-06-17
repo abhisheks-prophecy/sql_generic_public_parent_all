@@ -1,7 +1,6 @@
 {{
   config({    
-    "materialized": "view",
-    "pre_hook": ["drop view if exists model_with_only_seed_base"]
+    "materialized": "view"
   })
 }}
 

@@ -9,8 +9,7 @@
     },
     "graphConfig" : {
       "modelConfig" : {
-        "materialized" : "view",
-        "pre-hook" : "\"drop view if exists model_with_only_seed_base\""
+        "materialized" : "view"
       },
       "userDefinedConfig" : {
         "vars" : { }
