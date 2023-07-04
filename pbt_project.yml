@@ -12,7 +12,6 @@ jobs: {}
 functions:
   author: null
   createdAt: '2023-04-16 04:39:37'
-  modifiedAt: '2023-04-16 04:39:37'
   gems: {}
   udfs: {}
   udafs: {}
@@ -48,7 +47,74 @@ sqlModels:
       models: []
       datasets: []
     createdAt: '2023-04-16 04:45:57'
-    modifiedAt: '2023-04-16 04:45:57'
+  .prophecy/metadata/sqlmodels/model_with_seed_and_incremental_condition:
+    name: model_with_seed_and_incremental_condition
+    schema:
+      providerType: Databricks
+      fields:
+      - name: Period_1
+        dataType:
+          type: Float
+      - name: Suppressed_1
+        dataType:
+          type: String
+      - name: STATUS_1
+        dataType:
+          type: String
+      - name: UNITS_1
+        dataType:
+          type: String
+      - name: Series_reference
+        dataType:
+          type: String
+      - name: Series_title_1
+        dataType:
+          type: String
+      - name: Series_title_3
+        dataType:
+          type: String
+      - name: Series_title_5
+        dataType:
+          type: String
+      - name: Data_value
+        dataType:
+          type: Float
+      - name: STATUS1
+        dataType:
+          type: String
+      - name: Magnitude_1
+        dataType:
+          type: Integer
+      - name: Suppressed1
+        dataType:
+          type: String
+      - name: Series_title_4
+        dataType:
+          type: String
+      - name: Period1
+        dataType:
+          type: Float
+      - name: UNITS1
+        dataType:
+          type: String
+      - name: Group_1
+        dataType:
+          type: String
+      - name: Series_title_2
+        dataType:
+          type: String
+      - name: Subject_1
+        dataType:
+          type: String
+    description: null
+    author: abhisheks+e2etests@prophecy.io
+    files:
+    - models/model_with_seed_and_incremental_condition.sql
+    - .prophecy/ide/models/model_with_seed_and_incremental_condition.json
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-07-04 03:50:33'
 sqlMacros:
   .prophecy/metadata/sqlmacros/tpcds_macros_query_1:
     name: tpcds_macros_query_1
@@ -60,7 +126,6 @@ sqlMacros:
     - .prophecy/ide/macros/tpcds_macros_query_1.json
     - macros/tpcds/tpcds.yml
     createdAt: '2023-04-21 09:00:28'
-    modifiedAt: '2023-04-21 09:00:28'
   .prophecy/metadata/sqlmacros/bigquery__language_specific_concat_base:
     name: bigquery__language_specific_concat_base
     macroType: expression
@@ -69,7 +134,6 @@ sqlMacros:
     files:
     - macros/functions/language_specific_concat_base.sql
     createdAt: '2023-04-16 04:43:18'
-    modifiedAt: '2023-04-16 04:43:18'
   .prophecy/metadata/sqlmacros/language_specific_deduplicate_base:
     name: language_specific_deduplicate_base
     macroType: expression
@@ -79,7 +143,6 @@ sqlMacros:
     - macros/gems/language_specific_deduplicate_base.sql
     - .prophecy/ide/macros/language_specific_deduplicate_base.json
     createdAt: '2023-04-16 04:43:50'
-    modifiedAt: '2023-04-16 04:43:50'
   .prophecy/metadata/sqlmacros/_qa_concat_string_cols:
     name: _qa_concat_string_cols
     macroType: expression
@@ -88,7 +151,6 @@ sqlMacros:
     files:
     - macros/functions/qa_concat_macro_base.sql
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
   .prophecy/metadata/sqlmacros/redshift__language_specific_deduplicate_base:
     name: redshift__language_specific_deduplicate_base
     macroType: expression
@@ -97,7 +159,6 @@ sqlMacros:
     files:
     - macros/gems/language_specific_deduplicate_base.sql
     createdAt: '2023-04-16 04:44:01'
-    modifiedAt: '2023-04-16 04:44:01'
   .prophecy/metadata/sqlmacros/qa_all_null_base:
     name: qa_all_null_base
     macroType: query
@@ -107,7 +168,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:27'
-    modifiedAt: '2023-04-16 04:45:27'
   .prophecy/metadata/sqlmacros/default__language_specific_concat_base:
     name: default__language_specific_concat_base
     macroType: expression
@@ -116,7 +176,6 @@ sqlMacros:
     files:
     - macros/functions/language_specific_concat_base.sql
     createdAt: '2023-04-16 04:43:18'
-    modifiedAt: '2023-04-16 04:43:18'
   .prophecy/metadata/sqlmacros/tpcds_macros_query_2:
     name: tpcds_macros_query_2
     macroType: query
@@ -126,7 +185,6 @@ sqlMacros:
     - macros/tpcds/tpcds_macros_query_1.sql
     - macros/tpcds/tpcds.yml
     createdAt: '2023-04-21 09:04:47'
-    modifiedAt: '2023-04-21 09:04:47'
   .prophecy/metadata/sqlmacros/multi_macro_expressions_base:
     name: multi_macro_expressions_base
     macroType: expression
@@ -135,7 +193,6 @@ sqlMacros:
     files:
     - macros/functions/qa_concat_macro_base.sql
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
   .prophecy/metadata/sqlmacros/postgres__language_specific_deduplicate_base:
     name: postgres__language_specific_deduplicate_base
     macroType: query
@@ -145,7 +202,6 @@ sqlMacros:
     - macros/gems/language_specific_deduplicate_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:44:01'
-    modifiedAt: '2023-04-16 04:44:01'
   .prophecy/metadata/sqlmacros/qa_test_relationship_base:
     name: qa_test_relationship_base
     macroType: query
@@ -156,7 +212,6 @@ sqlMacros:
     - .prophecy/ide/macros/qa_test_relationship_base.json
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:11'
-    modifiedAt: '2023-04-16 04:45:11'
   .prophecy/metadata/sqlmacros/qa_concat_macro_base_column:
     name: qa_concat_macro_base_column
     macroType: expression
@@ -165,7 +220,6 @@ sqlMacros:
     files:
     - macros/functions/qa_concat_macro_base.sql
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
   .prophecy/metadata/sqlmacros/qa_complex_macro_base:
     name: qa_complex_macro_base
     macroType: query
@@ -175,7 +229,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:27'
-    modifiedAt: '2023-04-16 04:45:27'
   .prophecy/metadata/sqlmacros/qa_macro_call_another_macro_base_column:
     name: qa_macro_call_another_macro_base_column
     macroType: expression
@@ -184,7 +237,6 @@ sqlMacros:
     files:
     - macros/functions/qa_concat_macro_base.sql
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
   .prophecy/metadata/sqlmacros/qa_multi_models_base:
     name: qa_multi_models_base
     macroType: query
@@ -194,7 +246,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-21 08:58:19'
-    modifiedAt: '2023-04-21 08:58:19'
   .prophecy/metadata/sqlmacros/snowflake__language_specific_concat_base:
     name: snowflake__language_specific_concat_base
     macroType: expression
@@ -203,7 +254,6 @@ sqlMacros:
     files:
     - macros/functions/language_specific_concat_base.sql
     createdAt: '2023-04-16 04:43:18'
-    modifiedAt: '2023-04-16 04:43:18'
   .prophecy/metadata/sqlmacros/bigquery__language_specific_deduplicate_base:
     name: bigquery__language_specific_deduplicate_base
     macroType: query
@@ -212,7 +262,6 @@ sqlMacros:
     files:
     - macros/gems/language_specific_deduplicate_base.sql
     createdAt: '2023-04-16 04:44:01'
-    modifiedAt: '2023-04-16 04:44:01'
   .prophecy/metadata/sqlmacros/_qa_all_null_base:
     name: _qa_all_null_base
     macroType: query
@@ -222,7 +271,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:27'
-    modifiedAt: '2023-04-16 04:45:27'
   .prophecy/metadata/sqlmacros/qa_macro_call_another_macro_base:
     name: qa_macro_call_another_macro_base
     macroType: expression
@@ -231,7 +279,6 @@ sqlMacros:
     files:
     - macros/functions/qa_concat_macro_base.sql
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
   .prophecy/metadata/sqlmacros/qa_epl_data_macro_base:
     name: qa_epl_data_macro_base
     macroType: query
@@ -241,7 +288,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:27'
-    modifiedAt: '2023-04-16 04:45:27'
   .prophecy/metadata/sqlmacros/_round_function_base:
     name: _round_function_base
     macroType: expression
@@ -250,7 +296,6 @@ sqlMacros:
     files:
     - macros/functions/qa_concat_macro_base.sql
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
   .prophecy/metadata/sqlmacros/default__language_specific_deduplicate_base:
     name: default__language_specific_deduplicate_base
     macroType: query
@@ -260,7 +305,6 @@ sqlMacros:
     - macros/gems/language_specific_deduplicate_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:44:01'
-    modifiedAt: '2023-04-16 04:44:01'
   .prophecy/metadata/sqlmacros/tpcds_macros_query_3:
     name: tpcds_macros_query_3
     macroType: query
@@ -270,7 +314,6 @@ sqlMacros:
     - macros/tpcds/tpcds_macros_query_1.sql
     - macros/tpcds/tpcds.yml
     createdAt: '2023-04-21 09:05:42'
-    modifiedAt: '2023-04-21 09:05:42'
   .prophecy/metadata/sqlmacros/qa_all_not_null_base:
     name: qa_all_not_null_base
     macroType: query
@@ -280,7 +323,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:27'
-    modifiedAt: '2023-04-16 04:45:27'
   .prophecy/metadata/sqlmacros/snowflake__language_specific_deduplicate_base:
     name: snowflake__language_specific_deduplicate_base
     macroType: query
@@ -290,7 +332,6 @@ sqlMacros:
     - macros/gems/language_specific_deduplicate_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:44:01'
-    modifiedAt: '2023-04-16 04:44:01'
   .prophecy/metadata/sqlmacros/language_specific_concat_base:
     name: language_specific_concat_base
     macroType: expression
@@ -300,7 +341,6 @@ sqlMacros:
     - macros/functions/language_specific_concat_base.sql
     - .prophecy/ide/macros/language_specific_concat_base.json
     createdAt: '2023-04-16 04:43:08'
-    modifiedAt: '2023-04-16 04:43:08'
   .prophecy/metadata/sqlmacros/databricks__language_specific_concat_base:
     name: databricks__language_specific_concat_base
     macroType: expression
@@ -309,7 +349,6 @@ sqlMacros:
     files:
     - macros/functions/language_specific_concat_base.sql
     createdAt: '2023-04-16 04:43:18'
-    modifiedAt: '2023-04-16 04:43:18'
   .prophecy/metadata/sqlmacros/round_function_base:
     name: round_function_base
     macroType: expression
@@ -318,7 +357,6 @@ sqlMacros:
     files:
     - macros/functions/qa_concat_macro_base.sql
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
   .prophecy/metadata/sqlmacros/qa_get_unique_count_base:
     name: qa_get_unique_count_base
     macroType: query
@@ -328,7 +366,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:27'
-    modifiedAt: '2023-04-16 04:45:27'
   .prophecy/metadata/sqlmacros/qa_model_all_above_given_id_base:
     name: qa_model_all_above_given_id_base
     macroType: query
@@ -338,7 +375,6 @@ sqlMacros:
     - macros/gems/qa_test_relationship_base.sql
     - macros/gems/gems.yml
     createdAt: '2023-04-16 04:45:27'
-    modifiedAt: '2023-04-16 04:45:27'
   .prophecy/metadata/sqlmacros/qa_concat_macro_base:
     name: qa_concat_macro_base
     macroType: expression
@@ -348,7 +384,6 @@ sqlMacros:
     - macros/functions/qa_concat_macro_base.sql
     - .prophecy/ide/macros/qa_concat_macro_base.json
     createdAt: '2023-04-16 04:44:33'
-    modifiedAt: '2023-04-16 04:44:33'
   .prophecy/metadata/sqlmacros/_qa_concat_param_type_base:
     name: _qa_concat_param_type_base
     macroType: expression
@@ -358,7 +393,6 @@ sqlMacros:
     - macros/functions/qa_concat_macro_base.sql
     - macros/functions/functions.yml
     createdAt: '2023-04-16 04:44:45'
-    modifiedAt: '2023-04-16 04:44:45'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/electronic_cards_transactions:
     name: electronic_cards_transactions
@@ -412,7 +446,6 @@ sqlSeeds:
     files:
     - seeds/others/electronic_cards_transactions.csv
     createdAt: '2023-04-16 04:42:39'
-    modifiedAt: '2023-04-16 04:42:39'
   .prophecy/metadata/sqlseeds/economic_survey_manufacturing:
     name: economic_survey_manufacturing
     schema:
@@ -465,7 +498,6 @@ sqlSeeds:
     files:
     - seeds/economic_survey_manufacturing.csv
     createdAt: '2023-04-16 04:41:50'
-    modifiedAt: '2023-04-16 04:41:50'
   .prophecy/metadata/sqlseeds/goods_classification:
     name: goods_classification
     schema:
@@ -491,7 +523,6 @@ sqlSeeds:
     files:
     - seeds/goods_classification.csv
     createdAt: '2023-04-16 04:42:04'
-    modifiedAt: '2023-04-16 04:42:04'
   .prophecy/metadata/sqlseeds/epl_data:
     name: epl_data
     schema:
@@ -688,7 +719,6 @@ sqlSeeds:
     files:
     - seeds/epl/epl_data.csv
     createdAt: '2023-04-16 04:40:34'
-    modifiedAt: '2023-04-16 04:40:34'
   .prophecy/metadata/sqlseeds/business_financial_data:
     name: business_financial_data
     schema:
@@ -741,7 +771,6 @@ sqlSeeds:
     files:
     - seeds/others/business_financial_data.csv
     createdAt: '2023-04-16 04:42:22'
-    modifiedAt: '2023-04-16 04:42:22'
   .prophecy/metadata/sqlseeds/annual_enterprise:
     name: annual_enterprise
     schema:
@@ -782,7 +811,6 @@ sqlSeeds:
     files:
     - seeds/annual_enterprise.csv
     createdAt: '2023-04-16 16:18:21'
-    modifiedAt: '2023-04-16 16:18:21'
   .prophecy/metadata/sqlseeds/country_classification:
     name: country_classification
     schema:
@@ -799,7 +827,6 @@ sqlSeeds:
     files:
     - seeds/country_classification.csv
     createdAt: '2023-04-16 04:41:30'
-    modifiedAt: '2023-04-16 04:41:30'
   .prophecy/metadata/sqlseeds/service_classification:
     name: service_classification
     schema:
@@ -816,7 +843,6 @@ sqlSeeds:
     files:
     - seeds/service_classification.csv
     createdAt: '2023-04-16 04:40:59'
-    modifiedAt: '2023-04-16 04:40:59'
 sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline:
@@ -824,7 +850,6 @@ sqlPipeline:
   description: null
   author: abhisheks+e2etests@prophecy.io
   createdAt: '2023-04-16 04:39:37'
-  modifiedAt: '2023-04-16 04:39:37'
 dependencies: '[]'
 projectDependencies: {}
 pipelineConfigurations: {}
