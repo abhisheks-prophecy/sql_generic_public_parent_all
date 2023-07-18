@@ -9,426 +9,6 @@
     }
   },
   "processes" : {
-    "model_with_seed_and_incremental_condition##NBi8fO6b" : {
-      "id" : "model_with_seed_and_incremental_condition##NBi8fO6b",
-      "component" : "TargetModel",
-      "metadata" : {
-        "label" : "model_with_seed_and_incremental_condition",
-        "x" : 120,
-        "y" : 120,
-        "phase" : 0,
-        "macroDependencies" : [ "is_incremental" ]
-      },
-      "properties" : {
-        "customQueryDisabled" : true,
-        "customQuery" : false,
-        "incrementalEditorDisabled" : false,
-        "query" : "SELECT * \n\nFROM Join_1\n\n{% if is_incremental() %}\n  WHERE \n    Period_1 > 10 and Suppressed_1 IS NOT NULL\n{% endif %}",
-        "incrementalKey" : true,
-        "incremental" : {
-          "expression" : "Period_1 > 10 and Suppressed_1 is not null"
-        }
-      },
-      "ports" : {
-        "inputs" : [ {
-          "id" : "SpLOeskL",
-          "schema" : {
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "Period_1",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "Suppressed_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "STATUS_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "UNITS_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_reference",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_3",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_5",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Data_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "STATUS1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Magnitude_1",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "Suppressed1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_4",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Period1",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "UNITS1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Group_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_2",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Subject_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "slug" : "Join_1"
-        } ],
-        "outputs" : [ {
-          "id" : "MRYmcsBZ",
-          "schema" : {
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "Period_1",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "Suppressed_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "STATUS_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "UNITS_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_reference",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_3",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_5",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Data_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "STATUS1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Magnitude_1",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "Suppressed1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_4",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Period1",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "UNITS1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Group_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_2",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Subject_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false
-      }
-    },
-    "JRXW2SFd1ElnXaAZKZ6I3" : {
-      "id" : "JRXW2SFd1ElnXaAZKZ6I3",
-      "component" : "Seed",
-      "metadata" : {
-        "label" : "business_financial_data",
-        "slug" : "business_financial_data",
-        "x" : -486.6000061035156,
-        "y" : -8.199999809265137,
-        "phase" : 0
-      },
-      "properties" : {
-        "table" : {
-          "name" : "business_financial_data",
-          "sourceType" : "Seed",
-          "alias" : ""
-        }
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "Bmb8BqKTQP7kC8zoertap",
-          "schema" : {
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "Series_reference",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Period1",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "Data_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "Suppressed1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "STATUS1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "UNITS1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Magnitude_1",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "Subject_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Group_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_2",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_3",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_4",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_5",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false
-      }
-    },
-    "Cv2nbfzFQmCUxP_P5b2GI" : {
-      "id" : "Cv2nbfzFQmCUxP_P5b2GI",
-      "component" : "Seed",
-      "metadata" : {
-        "label" : "economic_survey_manufacturing",
-        "slug" : "economic_survey_manufacturing",
-        "x" : -480,
-        "y" : 200,
-        "phase" : 0
-      },
-      "properties" : {
-        "table" : {
-          "name" : "economic_survey_manufacturing",
-          "sourceType" : "Seed",
-          "alias" : ""
-        }
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "u_m3thBHb_-Rfltj5Y3ah",
-          "schema" : {
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "Series_reference",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Period_1",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "Data_value",
-              "dataType" : {
-                "type" : "Float"
-              }
-            }, {
-              "name" : "Suppressed_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "STATUS_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "UNITS_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Magnitude_1",
-              "dataType" : {
-                "type" : "Integer"
-              }
-            }, {
-              "name" : "Subject_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Group_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_2",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_3",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_4",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "Series_title_5",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false
-      }
-    },
     "wRz-xPAva5_2haD3k_wwA$$jGnSBbgU4nGYYmYUspOj9" : {
       "id" : "wRz-xPAva5_2haD3k_wwA$$jGnSBbgU4nGYYmYUspOj9",
       "component" : "Join",
@@ -799,6 +379,740 @@
         } ],
         "isCustomOutputSchema" : false
       }
+    },
+    "Cv2nbfzFQmCUxP_P5b2GI" : {
+      "id" : "Cv2nbfzFQmCUxP_P5b2GI",
+      "component" : "Seed",
+      "metadata" : {
+        "label" : "economic_survey_manufacturing",
+        "slug" : "economic_survey_manufacturing",
+        "x" : -480,
+        "y" : 200,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "economic_survey_manufacturing",
+          "sourceType" : "Seed",
+          "alias" : ""
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "u_m3thBHb_-Rfltj5Y3ah",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "Series_reference",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Period_1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Data_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Suppressed_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "STATUS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "UNITS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Magnitude_1",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "Subject_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Group_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_5",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
+    },
+    "JRXW2SFd1ElnXaAZKZ6I3" : {
+      "id" : "JRXW2SFd1ElnXaAZKZ6I3",
+      "component" : "Seed",
+      "metadata" : {
+        "label" : "business_financial_data",
+        "slug" : "business_financial_data",
+        "x" : -480,
+        "y" : 0,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "business_financial_data",
+          "sourceType" : "Seed",
+          "alias" : ""
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "Bmb8BqKTQP7kC8zoertap",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "Series_reference",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Period1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Data_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Suppressed1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "STATUS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "UNITS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Magnitude_1",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "Subject_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Group_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_5",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
+    },
+    "model_with_seed_and_incremental_condition##NBi8fO6b" : {
+      "id" : "model_with_seed_and_incremental_condition##NBi8fO6b",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "model_with_seed_and_incremental_condition",
+        "x" : 120,
+        "y" : 120,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : false,
+        "query" : "SELECT * \n\nFROM Join_1\n\n{% if is_incremental() %}\n  WHERE \n    Period_1 > 10 and Suppressed_1 IS NOT NULL\n{% endif %}",
+        "incrementalKey" : true,
+        "incremental" : {
+          "expression" : "Period_1 > 10 and Suppressed_1 is not null"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "SpLOeskL",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "Period_1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Suppressed_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "STATUS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "UNITS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_reference",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_5",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Data_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "STATUS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Magnitude_1",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "Suppressed1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Period1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "UNITS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Group_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Subject_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "Join_1"
+        } ],
+        "outputs" : [ {
+          "id" : "MRYmcsBZ",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "Period_1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Suppressed_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "STATUS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "UNITS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_reference",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_5",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Data_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "STATUS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Magnitude_1",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "Suppressed1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Period1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "UNITS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Group_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Subject_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
+    },
+    "e6jW4qWQUdbDe2ZfD0y2T$$83xHQ0gi29WmC8dXQ9gbO" : {
+      "id" : "e6jW4qWQUdbDe2ZfD0y2T$$83xHQ0gi29WmC8dXQ9gbO",
+      "component" : "SetOperation",
+      "metadata" : {
+        "label" : "SetOperation_1",
+        "slug" : "SetOperation_1",
+        "x" : 20,
+        "y" : 300,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "operationType" : "except",
+        "preserveDuplicates" : true,
+        "useMinus" : false,
+        "inputAliases" : [ "in0", "in1" ]
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "mNqlF44t5VwwlQhWzYzvV$$ucq6vLIHmHUAf4OxC5uMA",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "Period_1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Suppressed_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "STATUS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "UNITS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_reference",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_5",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Data_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "STATUS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Magnitude_1",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "Suppressed1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Period1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "UNITS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Group_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Subject_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "in0"
+        }, {
+          "id" : "yRmuUHcmBIwilAXGRagdF$$anXyxeDG2SWrCvnlm7BFy",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "Period_1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Suppressed_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "STATUS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "UNITS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_reference",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_5",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Data_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "STATUS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Magnitude_1",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "Suppressed1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Period1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "UNITS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Group_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Subject_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "in1"
+        } ],
+        "outputs" : [ {
+          "id" : "2VUwBrdNNlPGrv4iwhK2J$$7rqAT38Sq2v7WEeldCyZy",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "Period_1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "Suppressed_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "STATUS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "UNITS_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_reference",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_5",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Data_value",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "STATUS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Magnitude_1",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "Suppressed1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Period1",
+              "dataType" : {
+                "type" : "Float"
+              }
+            }, {
+              "name" : "UNITS1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Group_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Series_title_2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "Subject_1",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
     }
   },
   "connections" : [ {
@@ -819,6 +1133,18 @@
     "sourcePort" : "WbIJ2xiuJpDQHz7q14ggq$$3etuSysZFCpxBkaUQ6ZpH",
     "target" : "model_with_seed_and_incremental_condition##NBi8fO6b",
     "targetPort" : "SpLOeskL"
+  }, {
+    "id" : "WCLTohf0Bwq-aRwQFmWVg",
+    "source" : "wRz-xPAva5_2haD3k_wwA$$jGnSBbgU4nGYYmYUspOj9",
+    "sourcePort" : "WbIJ2xiuJpDQHz7q14ggq$$3etuSysZFCpxBkaUQ6ZpH",
+    "target" : "e6jW4qWQUdbDe2ZfD0y2T$$83xHQ0gi29WmC8dXQ9gbO",
+    "targetPort" : "mNqlF44t5VwwlQhWzYzvV$$ucq6vLIHmHUAf4OxC5uMA"
+  }, {
+    "id" : "rmVBrf35zfE44i3OPcK8N",
+    "source" : "wRz-xPAva5_2haD3k_wwA$$jGnSBbgU4nGYYmYUspOj9",
+    "sourcePort" : "WbIJ2xiuJpDQHz7q14ggq$$3etuSysZFCpxBkaUQ6ZpH",
+    "target" : "e6jW4qWQUdbDe2ZfD0y2T$$83xHQ0gi29WmC8dXQ9gbO",
+    "targetPort" : "yRmuUHcmBIwilAXGRagdF$$anXyxeDG2SWrCvnlm7BFy"
   } ],
   "component" : "Model"
 }

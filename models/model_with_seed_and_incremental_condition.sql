@@ -40,6 +40,20 @@ Join_1 AS (
   INNER JOIN economic_survey_manufacturing
      ON business_financial_data.Series_reference != economic_survey_manufacturing.Series_reference
 
+),
+
+SetOperation_1 AS (
+
+  SELECT * 
+  
+  FROM Join_1 AS in0
+  
+  EXCEPT ALL
+  
+  SELECT * 
+  
+  FROM Join_1 AS in1
+
 )
 
 SELECT *
@@ -47,6 +61,6 @@ SELECT *
 FROM Join_1
 
 {% if is_incremental() %}
-  
-  WHERE Period_1 > 10 and Suppressed_1 IS NOT NULL
+  WHERE 
+    Period_1 > 10 and Suppressed_1 IS NOT NULL
 {% endif %}
