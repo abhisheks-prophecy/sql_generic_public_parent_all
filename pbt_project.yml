@@ -49,7 +49,63 @@ sqlModels:
     createdAt: '2023-04-16 04:45:57'
   .prophecy/metadata/sqlmodels/model_with_seed_and_incremental_condition:
     name: model_with_seed_and_incremental_condition
-    schema: null
+    schema:
+      providerType: Databricks
+      fields:
+      - name: Period_1
+        dataType:
+          type: Float
+      - name: Suppressed_1
+        dataType:
+          type: String
+      - name: STATUS_1
+        dataType:
+          type: String
+      - name: UNITS_1
+        dataType:
+          type: String
+      - name: Series_reference
+        dataType:
+          type: String
+      - name: Series_title_1
+        dataType:
+          type: String
+      - name: Series_title_3
+        dataType:
+          type: String
+      - name: Series_title_5
+        dataType:
+          type: String
+      - name: Data_value
+        dataType:
+          type: Float
+      - name: STATUS1
+        dataType:
+          type: String
+      - name: Magnitude_1
+        dataType:
+          type: Integer
+      - name: Suppressed1
+        dataType:
+          type: String
+      - name: Series_title_4
+        dataType:
+          type: String
+      - name: Period1
+        dataType:
+          type: Float
+      - name: UNITS1
+        dataType:
+          type: String
+      - name: Group_1
+        dataType:
+          type: String
+      - name: Series_title_2
+        dataType:
+          type: String
+      - name: Subject_1
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
