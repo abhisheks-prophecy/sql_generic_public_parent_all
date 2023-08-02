@@ -25,7 +25,27 @@
         "x" : 440,
         "y" : 220,
         "phase" : 0,
-        "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
+        "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
+        "dataExplorerProps" : {
+          "filter" : [ {
+            "type" : "simple",
+            "lhs" : "country_code",
+            "operator" : "!=",
+            "rhs" : "BE"
+          }, {
+            "type" : "simple",
+            "lhs" : "code_1",
+            "operator" : "!=",
+            "rhs" : "A12"
+          } ],
+          "sort" : [ {
+            "column" : "c_macro2",
+            "order" : "asc"
+          }, {
+            "column" : "country_label",
+            "order" : "desc"
+          } ]
+        }
       },
       "properties" : {
         "conditions" : [ {
@@ -311,7 +331,19 @@
         "label" : "service_classification",
         "x" : -240,
         "y" : 380,
-        "phase" : 0
+        "phase" : 0,
+        "dataExplorerProps" : {
+          "filter" : [ {
+            "type" : "simple",
+            "lhs" : "code_1",
+            "operator" : "!=",
+            "rhs" : "A22"
+          } ],
+          "sort" : [ {
+            "column" : "service_label_1",
+            "order" : "desc"
+          } ]
+        }
       },
       "properties" : {
         "table" : {
@@ -350,7 +382,19 @@
         "x" : 700,
         "y" : 240,
         "phase" : 0,
-        "macroDependencies" : [ ]
+        "macroDependencies" : [ ],
+        "dataExplorerProps" : {
+          "filter" : [ {
+            "type" : "simple",
+            "lhs" : "country_code",
+            "operator" : "!=",
+            "rhs" : "BJ"
+          } ],
+          "sort" : [ {
+            "column" : "code_1",
+            "order" : "asc"
+          } ]
+        }
       },
       "properties" : {
         "customQueryDisabled" : false,
