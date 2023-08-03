@@ -12,28 +12,6 @@ WITH country_classification AS (
 
 ),
 
-SetOperation_1 AS (
-
-  SELECT * 
-  
-  FROM country_classification AS in0
-  
-  UNION
-  
-  SELECT * 
-  
-  FROM country_classification AS in1
-
-),
-
-Reformat_1 AS (
-
-  SELECT * 
-  
-  FROM SetOperation_1 AS in0
-
-),
-
 service_classification AS (
 
   SELECT * 
@@ -51,7 +29,7 @@ Join_1 AS (
     in1.service_label_1 AS service_label_1,
     {{ SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column('in0.country_code') }} AS c_macro2
   
-  FROM Reformat_1 AS in0
+  FROM country_classification AS in0
   INNER JOIN service_classification AS in1
      ON in0.country_code != in1.code_1
 
