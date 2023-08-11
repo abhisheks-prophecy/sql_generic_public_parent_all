@@ -147,7 +147,7 @@
       "metadata" : {
         "label" : "country_classification",
         "x" : -240,
-        "y" : 120,
+        "y" : 140,
         "phase" : 0
       },
       "properties" : {
@@ -185,7 +185,7 @@
       "metadata" : {
         "label" : "service_classification",
         "x" : -240,
-        "y" : 380,
+        "y" : 360,
         "phase" : 0,
         "dataExplorerProps" : {
           "filter" : [ ],
