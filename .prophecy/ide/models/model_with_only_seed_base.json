@@ -147,8 +147,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : -260,
-        "y" : 40,
+        "x" : 160,
+        "y" : -220,
         "phase" : 0
       },
       "properties" : {
@@ -186,8 +186,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -280,
-        "y" : 260,
+        "x" : 60,
+        "y" : 380,
         "phase" : 0,
         "dataExplorerProps" : {
           "filter" : [ ],
