@@ -23,7 +23,7 @@
       "metadata" : {
         "label" : "Join_1",
         "x" : 420,
-        "y" : 80,
+        "y" : -20,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "dataExplorerProps" : {
@@ -187,7 +187,7 @@
       "metadata" : {
         "label" : "service_classification",
         "x" : 60,
-        "y" : 380,
+        "y" : 260,
         "phase" : 0,
         "dataExplorerProps" : {
           "filter" : [ ],
