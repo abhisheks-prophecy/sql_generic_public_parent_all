@@ -23,7 +23,7 @@
       "metadata" : {
         "label" : "Join_1",
         "x" : 420,
-        "y" : -20,
+        "y" : -180,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "dataExplorerProps" : {
@@ -229,8 +229,8 @@
       "component" : "TargetModel",
       "metadata" : {
         "label" : "model_with_only_seed_base",
-        "x" : 700,
-        "y" : 120,
+        "x" : 720,
+        "y" : -100,
         "phase" : 0,
         "macroDependencies" : [ ],
         "dataExplorerProps" : {
