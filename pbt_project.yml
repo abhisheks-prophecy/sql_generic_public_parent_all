@@ -13,12 +13,14 @@ gemContainer:
   languageVersion: ''
   gemLibsVersion: ''
   gems: {}
+  dependencies: null
 functions:
   author: null
   createdAt: '2023-04-16 04:39:37'
   udfs: {}
   udafs: {}
   expressions: {}
+  airflowFunctions: {}
 subgraphs: {}
 sqlModels:
   .prophecy/metadata/sqlmodels/model_with_only_seed_base:

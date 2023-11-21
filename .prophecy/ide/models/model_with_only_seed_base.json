@@ -22,8 +22,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 420,
-        "y" : -180,
+        "x" : 280,
+        "y" : -260,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "dataExplorerProps" : {
@@ -147,8 +147,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : 120,
-        "y" : -220,
+        "x" : -420,
+        "y" : -520,
         "phase" : 0
       },
       "properties" : {
@@ -186,8 +186,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : 60,
-        "y" : 260,
+        "x" : -180,
+        "y" : -100,
         "phase" : 0,
         "dataExplorerProps" : {
           "filter" : [ ],
