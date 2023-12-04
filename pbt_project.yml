@@ -789,4 +789,6 @@ sqlPipeline:
   createdAt: '2023-04-16 04:39:37'
 dependencies: '[]'
 projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
 pipelineConfigurations: {}
