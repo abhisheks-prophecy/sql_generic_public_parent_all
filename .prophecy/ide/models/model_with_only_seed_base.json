@@ -23,8 +23,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : -80,
-        "y" : -60,
+        "x" : -160,
+        "y" : -220,
         "phase" : 0
       },
       "properties" : {
@@ -62,8 +62,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -100,
-        "y" : 200,
+        "x" : -260,
+        "y" : 220,
         "phase" : 0
       },
       "properties" : {
@@ -101,8 +101,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 120,
-        "y" : 80,
+        "x" : 180,
+        "y" : -160,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
       },
