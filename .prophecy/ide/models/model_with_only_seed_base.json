@@ -62,8 +62,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -260,
-        "y" : 220,
+        "x" : -280,
+        "y" : 40,
         "phase" : 0
       },
       "properties" : {
@@ -101,8 +101,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 180,
-        "y" : -160,
+        "x" : 160,
+        "y" : 0,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
       },
@@ -225,7 +225,11 @@
         "x" : 520,
         "y" : 220,
         "phase" : 0,
-        "macroDependencies" : [ ]
+        "macroDependencies" : [ ],
+        "dataExplorerProps" : {
+          "filter" : [ ],
+          "sort" : [ ]
+        }
       },
       "properties" : {
         "customQueryDisabled" : false,
