@@ -23,7 +23,7 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : 20,
+        "x" : 0,
         "y" : 40,
         "phase" : 0
       },
@@ -62,7 +62,7 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : 20,
+        "x" : -40,
         "y" : 220,
         "phase" : 0
       },
