@@ -23,8 +23,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : 0,
-        "y" : 40,
+        "x" : -60,
+        "y" : 0,
         "phase" : 0
       },
       "properties" : {
@@ -102,7 +102,7 @@
       "metadata" : {
         "label" : "Join_1",
         "x" : 220,
-        "y" : 20,
+        "y" : -40,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
       },
@@ -222,8 +222,8 @@
       "component" : "TargetModel",
       "metadata" : {
         "label" : "model_with_only_seed_base",
-        "x" : 420,
-        "y" : 120,
+        "x" : 440,
+        "y" : 140,
         "phase" : 0,
         "macroDependencies" : [ ]
       },
