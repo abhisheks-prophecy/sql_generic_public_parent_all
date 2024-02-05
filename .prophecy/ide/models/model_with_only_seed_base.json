@@ -222,8 +222,8 @@
       "component" : "TargetModel",
       "metadata" : {
         "label" : "model_with_only_seed_base",
-        "x" : 440,
-        "y" : 140,
+        "x" : 480,
+        "y" : 60,
         "phase" : 0,
         "macroDependencies" : [ ]
       },
