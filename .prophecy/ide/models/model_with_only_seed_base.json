@@ -63,8 +63,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -80,
-        "y" : 140,
+        "x" : -140,
+        "y" : 200,
         "phase" : 0
       },
       "properties" : {
