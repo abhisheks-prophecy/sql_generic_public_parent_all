@@ -8,8 +8,9 @@
       "sources" : [ ]
     },
     "graphConfig" : {
-      "modelConfig" : {
-        "materialized" : "view"
+      "entityConfig" : {
+        "materialized" : "view",
+        "type" : "ModelConfig"
       },
       "userDefinedConfig" : {
         "vars" : { }
@@ -62,8 +63,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -40,
-        "y" : 220,
+        "x" : -80,
+        "y" : 140,
         "phase" : 0
       },
       "properties" : {
@@ -101,8 +102,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 220,
-        "y" : -40,
+        "x" : 240,
+        "y" : -100,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
       },
@@ -222,8 +223,8 @@
       "component" : "TargetModel",
       "metadata" : {
         "label" : "model_with_only_seed_base",
-        "x" : 480,
-        "y" : 60,
+        "x" : 620,
+        "y" : 80,
         "phase" : 0,
         "macroDependencies" : [ ]
       },
