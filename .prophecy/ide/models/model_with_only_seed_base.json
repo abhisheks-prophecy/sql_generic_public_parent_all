@@ -24,7 +24,7 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : -80,
+        "x" : -240,
         "y" : -100,
         "phase" : 0
       },
@@ -64,7 +64,7 @@
       "metadata" : {
         "label" : "service_classification",
         "x" : -200,
-        "y" : 120,
+        "y" : 180,
         "phase" : 0
       },
       "properties" : {
@@ -102,8 +102,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 240,
-        "y" : -100,
+        "x" : 260,
+        "y" : -180,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
       },
