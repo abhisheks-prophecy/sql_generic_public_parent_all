@@ -51,7 +51,11 @@ sqlModels:
     sqlDependencies:
       models: []
       datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
     createdAt: '2023-04-16 04:45:57'
+sqlSnapshots: {}
 sqlMacros:
   .prophecy/metadata/sqlmacros/tpcds_macros_query_1:
     name: tpcds_macros_query_1
