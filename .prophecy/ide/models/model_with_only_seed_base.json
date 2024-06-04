@@ -19,45 +19,6 @@
     "version" : 3
   },
   "processes" : {
-    "country_classification##S1DsHV3v" : {
-      "id" : "country_classification##S1DsHV3v",
-      "component" : "Seed",
-      "metadata" : {
-        "label" : "country_classification",
-        "x" : -520,
-        "y" : -280,
-        "phase" : 0
-      },
-      "properties" : {
-        "table" : {
-          "name" : "country_classification",
-          "sourceType" : "Seed"
-        }
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "PMCxoHOA",
-          "schema" : {
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "country_code",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "country_label",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      }
-    },
     "service_classification##Gu1QNL3S" : {
       "id" : "service_classification##Gu1QNL3S",
       "component" : "Seed",
@@ -207,6 +168,45 @@
               }
             }, {
               "name" : "c_macro2",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "country_classification##S1DsHV3v" : {
+      "id" : "country_classification##S1DsHV3v",
+      "component" : "Seed",
+      "metadata" : {
+        "label" : "country_classification",
+        "x" : -600,
+        "y" : -360,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "country_classification",
+          "sourceType" : "Seed"
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "PMCxoHOA",
+          "schema" : {
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "country_code",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "country_label",
               "dataType" : {
                 "type" : "String"
               }
