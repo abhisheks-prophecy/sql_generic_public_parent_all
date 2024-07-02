@@ -184,7 +184,7 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : -500,
+        "x" : -360,
         "y" : -440,
         "phase" : 0
       },
