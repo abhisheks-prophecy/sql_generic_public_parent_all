@@ -1,0 +1,20 @@
+---
+version: 2
+models:
+- name: "model_with_only_seed_base"
+  columns:
+  - name: "country_code"
+    dataType:
+      type: "String"
+  - name: "country_label"
+    dataType:
+      type: "String"
+  - name: "code_1"
+    dataType:
+      type: "String"
+  - name: "service_label_1"
+    dataType:
+      type: "String"
+  - name: "c_macro2"
+    dataType:
+      type: "String"

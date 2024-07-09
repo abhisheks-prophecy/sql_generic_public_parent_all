@@ -49,6 +49,7 @@ sqlModels:
     files:
     - models/main/model_with_only_seed_base.sql
     - .prophecy/ide/models/model_with_only_seed_base.json
+    - models/main/schema.yml
     sqlDependencies:
       models: []
       datasets: []
