@@ -24,8 +24,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -260,
-        "y" : -220,
+        "x" : -300,
+        "y" : -160,
         "phase" : 0
       },
       "properties" : {
@@ -185,7 +185,7 @@
       "metadata" : {
         "label" : "country_classification",
         "x" : -360,
-        "y" : -440,
+        "y" : -380,
         "phase" : 0
       },
       "properties" : {
