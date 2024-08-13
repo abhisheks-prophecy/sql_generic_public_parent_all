@@ -34,6 +34,7 @@
         "name" : "information_schema",
         "tables" : {
           "schemata" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "catalog_name",
@@ -78,6 +79,7 @@
             } ]
           },
           "catalog_privileges" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "grantor",
@@ -112,6 +114,7 @@
             } ]
           },
           "volume_privileges" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "grantor",
@@ -156,6 +159,7 @@
             } ]
           },
           "key_column_usage" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "constraint_catalog",
@@ -205,6 +209,7 @@
             } ]
           },
           "table_tags" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "catalog_name",
@@ -234,6 +239,7 @@
             } ]
           },
           "constraint_column_usage" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "table_catalog",
@@ -273,6 +279,7 @@
             } ]
           },
           "routines" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "specific_catalog",
@@ -447,6 +454,7 @@
             } ]
           },
           "referential_constraints" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "constraint_catalog",
@@ -496,6 +504,7 @@
             } ]
           },
           "column_tags" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "catalog_name",
@@ -530,6 +539,7 @@
             } ]
           },
           "information_schema_catalog_name" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "catalog_name",
@@ -539,6 +549,7 @@
             } ]
           },
           "volumes" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "volume_catalog",
@@ -598,6 +609,7 @@
             } ]
           },
           "row_filters" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "table_catalog",
@@ -627,6 +639,7 @@
             } ]
           },
           "schema_privileges" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "grantor",
@@ -666,6 +679,7 @@
             } ]
           },
           "table_constraints" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "constraint_catalog",
@@ -720,6 +734,7 @@
             } ]
           },
           "routine_privileges" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "grantor",
@@ -779,6 +794,7 @@
             } ]
           },
           "columns" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "table_catalog",
@@ -948,6 +964,7 @@
             } ]
           },
           "catalog_tags" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "catalog_name",
@@ -967,6 +984,7 @@
             } ]
           },
           "views" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "table_catalog",
@@ -1016,6 +1034,7 @@
             } ]
           },
           "constraint_table_usage" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "table_catalog",
@@ -1050,6 +1069,7 @@
             } ]
           },
           "catalogs" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "catalog_name",
@@ -1089,6 +1109,7 @@
             } ]
           },
           "table_privileges" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "grantor",
@@ -1133,6 +1154,7 @@
             } ]
           },
           "column_masks" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "table_catalog",
@@ -1167,6 +1189,7 @@
             } ]
           },
           "schema_tags" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "catalog_name",
@@ -1191,6 +1214,7 @@
             } ]
           },
           "routine_columns" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "specific_catalog",
@@ -1280,6 +1304,7 @@
             } ]
           },
           "parameters" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "specific_catalog",
@@ -1389,6 +1414,7 @@
             } ]
           },
           "tables" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "table_catalog",
@@ -1463,6 +1489,7 @@
             } ]
           },
           "check_constraints" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "constraint_catalog",

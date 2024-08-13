@@ -4,19 +4,19 @@
   })
 }}
 
-WITH country_classification AS (
-
-  SELECT * 
-  
-  FROM {{ ref('country_classification')}}
-
-),
-
-service_classification AS (
+WITH service_classification AS (
 
   SELECT * 
   
   FROM {{ ref('service_classification')}}
+
+),
+
+country_classification AS (
+
+  SELECT * 
+  
+  FROM {{ ref('country_classification')}}
 
 ),
 

@@ -27,6 +27,7 @@ sqlModels:
   .prophecy/metadata/sqlmodels/model_with_only_seed_base:
     name: model_with_only_seed_base
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: country_code
@@ -341,6 +342,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/electronic_cards_transactions:
     name: electronic_cards_transactions
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: Series_reference
@@ -393,6 +395,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/economic_survey_manufacturing:
     name: economic_survey_manufacturing
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: Series_reference
@@ -445,6 +448,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/goods_classification:
     name: goods_classification
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: NZHSC_Level_2_Code_HS4
@@ -470,6 +474,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/epl_data:
     name: epl_data
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: Div_1
@@ -666,6 +671,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/business_financial_data:
     name: business_financial_data
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: Series_reference
@@ -718,6 +724,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/annual_enterprise:
     name: annual_enterprise
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: Year_1
@@ -758,6 +765,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/country_classification:
     name: country_classification
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: country_code
@@ -774,6 +782,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/service_classification:
     name: service_classification
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: code_1
