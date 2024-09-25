@@ -19,14 +19,15 @@
     "version" : 3
   },
   "processes" : {
-    "service_classification##Gu1QNL3S" : {
-      "id" : "service_classification##Gu1QNL3S",
+    "service_classifi##IWfV9eWs" : {
+      "id" : "service_classifi##IWfV9eWs",
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -420,
-        "y" : -180,
-        "phase" : 0
+        "x" : 20,
+        "y" : 220,
+        "phase" : 0,
+        "isLabelGrayed" : false
       },
       "properties" : {
         "table" : {
@@ -37,7 +38,7 @@
       "ports" : {
         "inputs" : [ ],
         "outputs" : [ {
-          "id" : "VfFhdrKW",
+          "id" : "k9Oyirov",
           "schema" : {
             "entityType" : "",
             "providerType" : "Databricks",
@@ -57,17 +58,61 @@
         } ],
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
-      }
+      },
+      "index" : 0
     },
-    "Join_1##dP5dMrWn" : {
-      "id" : "Join_1##dP5dMrWn",
+    "country_classifi##uZL0fGdE" : {
+      "id" : "country_classifi##uZL0fGdE",
+      "component" : "Seed",
+      "metadata" : {
+        "label" : "country_classification",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0,
+        "isLabelGrayed" : false
+      },
+      "properties" : {
+        "table" : {
+          "name" : "country_classification",
+          "sourceType" : "Seed"
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "bmCzxyqX",
+          "schema" : {
+            "entityType" : "",
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "country_code",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "country_label",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "index" : 1
+    },
+    "Join_1##UOonBzuk" : {
+      "id" : "Join_1##UOonBzuk",
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 200,
-        "y" : -280,
+        "x" : 220,
+        "y" : 20,
         "phase" : 0,
-        "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ]
+        "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
+        "isLabelGrayed" : false
       },
       "properties" : {
         "conditions" : [ {
@@ -104,12 +149,12 @@
           "alias" : "c_macro2"
         } ],
         "activeTab" : "conditions",
-        "columnsSelector" : [ "jiwAzaI8##country_code", "iyqC2gaI##code_1", "jiwAzaI8##country_code", "jiwAzaI8##country_label", "iyqC2gaI##code_1", "iyqC2gaI##service_label_1" ],
+        "columnsSelector" : [ ],
         "headAlias" : "in0"
       },
       "ports" : {
         "inputs" : [ {
-          "id" : "jiwAzaI8",
+          "id" : "RCPNuSjN",
           "schema" : {
             "entityType" : "",
             "providerType" : "Databricks",
@@ -127,7 +172,7 @@
           },
           "slug" : "in0"
         }, {
-          "id" : "iyqC2gaI",
+          "id" : "Q4shn5qr",
           "schema" : {
             "entityType" : "",
             "providerType" : "Databricks",
@@ -146,7 +191,7 @@
           "slug" : "in1"
         } ],
         "outputs" : [ {
-          "id" : "NGxPxYwW",
+          "id" : "l0n73P86",
           "schema" : {
             "entityType" : "",
             "providerType" : "Databricks",
@@ -181,60 +226,21 @@
         } ],
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
-      }
-    },
-    "country_classification##S1DsHV3v" : {
-      "id" : "country_classification##S1DsHV3v",
-      "component" : "Seed",
-      "metadata" : {
-        "label" : "country_classification",
-        "x" : -440,
-        "y" : -540,
-        "phase" : 0
       },
-      "properties" : {
-        "table" : {
-          "name" : "country_classification",
-          "sourceType" : "Seed"
-        }
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "PMCxoHOA",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "country_code",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "country_label",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
-          "slug" : "out"
-        } ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      }
+      "index" : 2
     },
-    "model_with_only_seed_base##aZANw4bG" : {
-      "id" : "model_with_only_seed_base##aZANw4bG",
+    "final##aDeVTO4A" : {
+      "id" : "final##aDeVTO4A",
       "component" : "TargetModel",
       "metadata" : {
         "label" : "model_with_only_seed_base",
-        "x" : 540,
-        "y" : -180,
+        "x" : 420,
+        "y" : 120,
         "phase" : 0,
-        "macroDependencies" : [ ]
+        "isLabelGrayed" : false
       },
       "properties" : {
-        "customQueryDisabled" : false,
+        "customQueryDisabled" : true,
         "customQuery" : true,
         "incrementalEditorDisabled" : true,
         "query" : "SELECT \n  Join_1.country_code,\n  Join_1.country_label,\n  Join_1.code_1,\n  Join_1.service_label_1,\n  Join_1.c_macro2\n\nFROM Join_1, service_classification\n\nWHERE service_classification.service_label_1 != Join_1.country_code\n\nLIMIT 100\n",
@@ -245,7 +251,7 @@
       },
       "ports" : {
         "inputs" : [ {
-          "id" : "iDqjbrMM",
+          "id" : "AdRDfPNN",
           "schema" : {
             "entityType" : "",
             "providerType" : "Databricks",
@@ -278,7 +284,7 @@
           },
           "slug" : "Join_1"
         }, {
-          "id" : "wOTSlMBR",
+          "id" : "t8KJMst5",
           "schema" : {
             "entityType" : "",
             "providerType" : "Databricks",
@@ -297,7 +303,7 @@
           "slug" : "service_classification"
         } ],
         "outputs" : [ {
-          "id" : "DYu5pvv6",
+          "id" : "sX2VeGXm",
           "schema" : {
             "entityType" : "",
             "providerType" : "Databricks",
@@ -332,33 +338,34 @@
         } ],
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
-      }
+      },
+      "index" : 3
     }
   },
   "connections" : [ {
-    "id" : "tm7KcrGd",
-    "source" : "country_classification##S1DsHV3v",
-    "sourcePort" : "PMCxoHOA",
-    "target" : "Join_1##dP5dMrWn",
-    "targetPort" : "jiwAzaI8"
+    "id" : "f94MDXFf",
+    "source" : "country_classifi##uZL0fGdE",
+    "sourcePort" : "bmCzxyqX",
+    "target" : "Join_1##UOonBzuk",
+    "targetPort" : "RCPNuSjN"
   }, {
-    "id" : "MXYZnPeB",
-    "source" : "service_classification##Gu1QNL3S",
-    "sourcePort" : "VfFhdrKW",
-    "target" : "Join_1##dP5dMrWn",
-    "targetPort" : "iyqC2gaI"
+    "id" : "y1HN8m1q",
+    "source" : "service_classifi##IWfV9eWs",
+    "sourcePort" : "k9Oyirov",
+    "target" : "Join_1##UOonBzuk",
+    "targetPort" : "Q4shn5qr"
   }, {
-    "id" : "OVXEDeWB",
-    "source" : "Join_1##dP5dMrWn",
-    "sourcePort" : "NGxPxYwW",
-    "target" : "model_with_only_seed_base##aZANw4bG",
-    "targetPort" : "iDqjbrMM"
+    "id" : "QqIZhWoO",
+    "source" : "Join_1##UOonBzuk",
+    "sourcePort" : "l0n73P86",
+    "target" : "final##aDeVTO4A",
+    "targetPort" : "AdRDfPNN"
   }, {
-    "id" : "hmWMJ1L9",
-    "source" : "service_classification##Gu1QNL3S",
-    "sourcePort" : "VfFhdrKW",
-    "target" : "model_with_only_seed_base##aZANw4bG",
-    "targetPort" : "wOTSlMBR"
+    "id" : "Us3MyMfo",
+    "source" : "service_classifi##IWfV9eWs",
+    "sourcePort" : "k9Oyirov",
+    "target" : "final##aDeVTO4A",
+    "targetPort" : "t8KJMst5"
   } ],
   "component" : "Model"
 }
