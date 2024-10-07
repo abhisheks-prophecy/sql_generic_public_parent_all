@@ -39,21 +39,6 @@
         "inputs" : [ ],
         "outputs" : [ {
           "id" : "k9Oyirov",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "code_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "service_label_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false,
@@ -66,8 +51,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : 20,
-        "y" : 20,
+        "x" : -120,
+        "y" : -60,
         "phase" : 0,
         "isLabelGrayed" : false
       },
@@ -81,21 +66,6 @@
         "inputs" : [ ],
         "outputs" : [ {
           "id" : "bmCzxyqX",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "country_code",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "country_label",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false,
@@ -155,73 +125,13 @@
       "ports" : {
         "inputs" : [ {
           "id" : "RCPNuSjN",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "country_code",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "country_label",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "in0"
         }, {
           "id" : "Q4shn5qr",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "code_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "service_label_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "in1"
         } ],
         "outputs" : [ {
           "id" : "l0n73P86",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "country_code",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "country_label",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "code_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "service_label_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "c_macro2",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false,
@@ -252,88 +162,13 @@
       "ports" : {
         "inputs" : [ {
           "id" : "AdRDfPNN",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "country_code",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "country_label",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "code_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "service_label_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "c_macro2",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "Join_1"
         }, {
           "id" : "t8KJMst5",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "code_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "service_label_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "service_classification"
         } ],
         "outputs" : [ {
           "id" : "sX2VeGXm",
-          "schema" : {
-            "entityType" : "",
-            "providerType" : "Databricks",
-            "fields" : [ {
-              "name" : "country_code",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "country_label",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "code_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "service_label_1",
-              "dataType" : {
-                "type" : "String"
-              }
-            }, {
-              "name" : "c_macro2",
-              "dataType" : {
-                "type" : "String"
-              }
-            } ]
-          },
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false,
