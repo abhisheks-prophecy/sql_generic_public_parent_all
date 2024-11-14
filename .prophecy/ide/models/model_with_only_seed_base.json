@@ -24,8 +24,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : 20,
-        "y" : 220,
+        "x" : -260,
+        "y" : 160,
         "phase" : 0,
         "isLabelGrayed" : false
       },
@@ -51,7 +51,7 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : -260,
+        "x" : -300,
         "y" : -140,
         "phase" : 0,
         "isLabelGrayed" : false
@@ -78,8 +78,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 220,
-        "y" : 20,
+        "x" : 40,
+        "y" : -240,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "isLabelGrayed" : false
@@ -119,7 +119,7 @@
           "alias" : "c_macro2"
         } ],
         "activeTab" : "conditions",
-        "columnsSelector" : [ ],
+        "columnsSelector" : [ "RCPNuSjN##country_code", "Q4shn5qr##code_1", "RCPNuSjN##country_code", "RCPNuSjN##country_label", "Q4shn5qr##code_1", "Q4shn5qr##service_label_1" ],
         "headAlias" : "in0"
       },
       "ports" : {
@@ -136,8 +136,7 @@
         } ],
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
-      },
-      "index" : 2
+      }
     },
     "final##aDeVTO4A" : {
       "id" : "final##aDeVTO4A",
