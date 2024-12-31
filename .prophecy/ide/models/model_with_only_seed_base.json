@@ -52,7 +52,7 @@
       "metadata" : {
         "label" : "country_classification",
         "x" : -340,
-        "y" : -20,
+        "y" : -100,
         "phase" : 0,
         "isLabelGrayed" : false
       },
