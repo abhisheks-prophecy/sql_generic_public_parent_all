@@ -79,7 +79,7 @@
       "metadata" : {
         "label" : "Join_1",
         "x" : 40,
-        "y" : -240,
+        "y" : -160,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "isLabelGrayed" : false
@@ -88,35 +88,46 @@
         "conditions" : [ {
           "alias" : "in1",
           "expression" : {
-            "expression" : "in0.country_code != in1.code_1"
+            "expression" : "in0.country_code != in1.code_1",
+            "_row_id" : "1606236205"
           },
           "joinType" : "INNER"
         } ],
         "expressions" : [ {
           "expression" : {
-            "expression" : "in0.country_code"
+            "expression" : "in0.country_code",
+            "_row_id" : "767481498"
           },
-          "alias" : "country_code"
+          "alias" : "country_code",
+          "_row_id" : "2066267074"
         }, {
           "expression" : {
-            "expression" : "in0.country_label"
+            "expression" : "in0.country_label",
+            "_row_id" : "1008967837"
           },
-          "alias" : "country_label"
+          "alias" : "country_label",
+          "_row_id" : "614118497"
         }, {
           "expression" : {
-            "expression" : "in1.code_1"
+            "expression" : "in1.code_1",
+            "_row_id" : "750989057"
           },
-          "alias" : "code_1"
+          "alias" : "code_1",
+          "_row_id" : "1035732532"
         }, {
           "expression" : {
-            "expression" : "in1.service_label_1"
+            "expression" : "in1.service_label_1",
+            "_row_id" : "259731357"
           },
-          "alias" : "service_label_1"
+          "alias" : "service_label_1",
+          "_row_id" : "927479985"
         }, {
           "expression" : {
-            "expression" : "{{ SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column('in0.country_code') }}"
+            "expression" : "{{ SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column('in0.country_code') }}",
+            "_row_id" : "1911796672"
           },
-          "alias" : "c_macro2"
+          "alias" : "c_macro2",
+          "_row_id" : "1626589001"
         } ],
         "activeTab" : "conditions",
         "columnsSelector" : [ "RCPNuSjN##country_code", "Q4shn5qr##code_1", "RCPNuSjN##country_code", "RCPNuSjN##country_label", "Q4shn5qr##code_1", "Q4shn5qr##service_label_1" ],
