@@ -22,12 +22,14 @@ country_classification AS (
 
 Join_1 AS (
 
+  {#Combines country classification with service classification to analyze service availability across different countries.#}
   SELECT 
     in0.country_code AS country_code,
     in0.country_label AS country_label,
     in1.code_1 AS code_1,
     in1.service_label_1 AS service_label_1,
-    {{ SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column('in0.country_code') }} AS c_macro2
+    {{ SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column('in0.country_code') }} AS c_macro2,
+    concat('{{ dbt_utils.pretty_time() }}', '{{ dbt_utils.pretty_log_format("my pretty message") }}') AS c1
   
   FROM country_classification AS in0
   INNER JOIN service_classification AS in1

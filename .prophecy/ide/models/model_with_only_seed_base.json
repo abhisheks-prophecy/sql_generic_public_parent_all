@@ -78,10 +78,12 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 40,
-        "y" : -100,
+        "x" : 60,
+        "y" : 20,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
+        "comment" : "Combines country classification with service classification to analyze service availability across different countries.",
+        "autoUpdateComment" : true,
         "isLabelGrayed" : false
       },
       "properties" : {
@@ -122,6 +124,12 @@
           },
           "alias" : "c_macro2",
           "_row_id" : "1626589001"
+        }, {
+          "expression" : {
+            "expression" : "concat('{{ dbt_utils.pretty_time() }}', '{{ dbt_utils.pretty_log_format(\"my pretty message\") }}')"
+          },
+          "alias" : "c1",
+          "_row_id" : "TQigGkLDy2"
         } ],
         "activeTab" : "conditions",
         "columnsSelector" : [ "RCPNuSjN##country_code", "Q4shn5qr##code_1", "RCPNuSjN##country_code", "RCPNuSjN##country_label", "Q4shn5qr##code_1", "Q4shn5qr##service_label_1" ],
@@ -159,6 +167,7 @@
         "customQuery" : true,
         "incrementalEditorDisabled" : true,
         "query" : "SELECT \n  Join_1.country_code,\n  Join_1.country_label,\n  Join_1.code_1,\n  Join_1.service_label_1,\n  Join_1.c_macro2\n\nFROM Join_1, service_classification\n\nWHERE service_classification.service_label_1 != Join_1.country_code\n\nLIMIT 100\n",
+        "isModel" : true,
         "incrementalKey" : false,
         "incremental" : {
           "expression" : "true"
