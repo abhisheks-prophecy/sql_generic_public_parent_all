@@ -16,7 +16,37 @@
         "vars" : { }
       }
     },
-    "version" : 3
+    "version" : 3,
+    "properties" : {
+      "name" : "model_with_only_seed_base",
+      "columns" : [ {
+        "name" : "country_code",
+        "dataType" : {
+          "type" : "String"
+        }
+      }, {
+        "name" : "country_label",
+        "dataType" : {
+          "type" : "String"
+        }
+      }, {
+        "name" : "code_1",
+        "dataType" : {
+          "type" : "String"
+        }
+      }, {
+        "name" : "service_label_1",
+        "dataType" : {
+          "type" : "String"
+        }
+      }, {
+        "name" : "c_macro2",
+        "dataType" : {
+          "type" : "String"
+        }
+      } ],
+      "providerType" : "databricks"
+    }
   },
   "processes" : {
     "service_classifi##IWfV9eWs" : {
@@ -52,7 +82,7 @@
       "metadata" : {
         "label" : "country_classification",
         "x" : -260,
-        "y" : -140,
+        "y" : -40,
         "phase" : 0,
         "isLabelGrayed" : false
       },
@@ -79,7 +109,7 @@
       "metadata" : {
         "label" : "Join_1",
         "x" : 60,
-        "y" : 20,
+        "y" : -80,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "comment" : "Combines country classification with service classification to analyze service availability across different countries.",
@@ -167,6 +197,7 @@
         "customQuery" : true,
         "incrementalEditorDisabled" : true,
         "query" : "SELECT \n  Join_1.country_code,\n  Join_1.country_label,\n  Join_1.code_1,\n  Join_1.service_label_1,\n  Join_1.c_macro2\n\nFROM Join_1, service_classification\n\nWHERE service_classification.service_label_1 != Join_1.country_code\n\nLIMIT 100\n",
+        "isModel" : true,
         "incrementalKey" : false,
         "incremental" : {
           "expression" : "true"
