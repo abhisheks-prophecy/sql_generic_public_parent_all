@@ -1,0 +1,242 @@
+{
+  "id" : "model_parent_all_only_seed_pipeline_1_Join_1",
+  "metainfo" : {
+    "label" : "model_parent_all_only_seed_pipeline_1_Join_1",
+    "autoLayout" : true,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "graphConfig" : {
+      "entityConfig" : {
+        "alias" : "\"prophecy__temp_parent_all_only_seed_pipeline_1_post_Join_1_0\"",
+        "materialized" : "table",
+        "database" : "\"hive_metastore\"",
+        "schema" : "\"qa_db_warehouse\"",
+        "type" : "ModelConfig"
+      }
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "prophecy__temp_parent_all_only_seed_pipeline_1_post_Join_1_0" : {
+      "id" : "prophecy__temp_parent_all_only_seed_pipeline_1_post_Join_1_0",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "Join_1",
+        "phase" : 0
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "\nSELECT *\n\nFROM Join_1\n\n",
+        "isModel" : true,
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "input_port_0_1",
+          "slug" : "input_port_0_1"
+        } ],
+        "outputs" : [ {
+          "id" : "output_port_0_1",
+          "slug" : "output_port_0_1"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "FtBsO732T--BsuggEPyj7$$teaQIF9Vr5qpySB5o25wI" : {
+      "id" : "FtBsO732T--BsuggEPyj7$$teaQIF9Vr5qpySB5o25wI",
+      "component" : "Join",
+      "metadata" : {
+        "label" : "Join_1",
+        "x" : -540,
+        "y" : -120,
+        "phase" : 0
+      },
+      "properties" : {
+        "conditions" : [ {
+          "alias" : "in1",
+          "expression" : {
+            "expression" : "in0.Industry_aggregation_NZSIOC!=in1.code_1"
+          },
+          "joinType" : "inner"
+        } ],
+        "expressions" : [ {
+          "expression" : {
+            "expression" : "in0.Year_1"
+          },
+          "alias" : "Year_1",
+          "_row_id" : "1551962871"
+        }, {
+          "expression" : {
+            "expression" : "in0.Industry_aggregation_NZSIOC"
+          },
+          "alias" : "Industry_aggregation_NZSIOC",
+          "_row_id" : "682989886"
+        }, {
+          "expression" : {
+            "expression" : "in0.Industry_code_NZSIOC"
+          },
+          "alias" : "Industry_code_NZSIOC",
+          "_row_id" : "848191957"
+        }, {
+          "expression" : {
+            "expression" : "in0.Industry_name_NZSIOC"
+          },
+          "alias" : "Industry_name_NZSIOC",
+          "_row_id" : "1261133620"
+        }, {
+          "expression" : {
+            "expression" : "in0.Units_1"
+          },
+          "alias" : "Units_1",
+          "_row_id" : "2080295489"
+        }, {
+          "expression" : {
+            "expression" : "in0.Variable_code_1"
+          },
+          "alias" : "Variable_code_1",
+          "_row_id" : "1263467402"
+        }, {
+          "expression" : {
+            "expression" : "in0.Variable_name_1"
+          },
+          "alias" : "Variable_name_1",
+          "_row_id" : "1781117697"
+        }, {
+          "expression" : {
+            "expression" : "in0.Variable_category_1"
+          },
+          "alias" : "Variable_category_1",
+          "_row_id" : "929243311"
+        }, {
+          "expression" : {
+            "expression" : "in0.Value_1"
+          },
+          "alias" : "Value_1",
+          "_row_id" : "2055736457"
+        }, {
+          "expression" : {
+            "expression" : "in0.Industry_code_ANZSIC06"
+          },
+          "alias" : "Industry_code_ANZSIC06",
+          "_row_id" : "1073982086"
+        }, {
+          "expression" : {
+            "expression" : "in1.code_1"
+          },
+          "alias" : "code_1",
+          "_row_id" : "1208115386"
+        }, {
+          "expression" : {
+            "expression" : "in1.service_label_1"
+          },
+          "alias" : "service_label_1",
+          "_row_id" : "1854916327"
+        } ],
+        "activeTab" : "conditions",
+        "columnsSelector" : [ "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Industry_aggregation_NZSIOC", "8YOrAdEcWb2hcpHvvWKhS$$Wm7qcMK6ENlO8N-GE_b89##code_1", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Year_1", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Industry_aggregation_NZSIOC", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Industry_code_NZSIOC", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Industry_name_NZSIOC", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Units_1", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Variable_code_1", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Variable_name_1", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Variable_category_1", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Value_1", "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h##Industry_code_ANZSIC06", "8YOrAdEcWb2hcpHvvWKhS$$Wm7qcMK6ENlO8N-GE_b89##code_1", "8YOrAdEcWb2hcpHvvWKhS$$Wm7qcMK6ENlO8N-GE_b89##service_label_1" ],
+        "headAlias" : "in0"
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h",
+          "slug" : "in0"
+        }, {
+          "id" : "8YOrAdEcWb2hcpHvvWKhS$$Wm7qcMK6ENlO8N-GE_b89",
+          "slug" : "in1"
+        } ],
+        "outputs" : [ {
+          "id" : "vedCcmcw0Bm_rY_TpSqEG$$RMWo-qODN2Q-FnpjOzlYD",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "Cd72-cPSgNB06v9AyL9fp" : {
+      "id" : "Cd72-cPSgNB06v9AyL9fp",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "annual_enterprise",
+        "x" : -780,
+        "y" : -220,
+        "phase" : 0
+      },
+      "properties" : {
+        "writeOptions" : {
+          "writeMode" : "overwrite"
+        },
+        "table" : {
+          "name" : "annual_enterprise",
+          "sourceType" : "Seed",
+          "alias" : ""
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "FdDYg4wGHlkESXhqUsAqs",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "Kv_IpNJ6RixqnixS9igvr" : {
+      "id" : "Kv_IpNJ6RixqnixS9igvr",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "service_classification",
+        "x" : -780,
+        "y" : -60,
+        "phase" : 0
+      },
+      "properties" : {
+        "writeOptions" : {
+          "writeMode" : "overwrite"
+        },
+        "table" : {
+          "name" : "service_classification",
+          "sourceType" : "Seed",
+          "alias" : ""
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "DCSL8zogijOzf74dFwqxB",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ {
+    "id" : "conn_FtBsO732T--BsuggEPyj7$$teaQIF9Vr5qpySB5o25wI_prophecy__temp_parent_all_only_seed_pipeline_1_post_Join_1_0",
+    "source" : "FtBsO732T--BsuggEPyj7$$teaQIF9Vr5qpySB5o25wI",
+    "sourcePort" : "vedCcmcw0Bm_rY_TpSqEG$$RMWo-qODN2Q-FnpjOzlYD",
+    "target" : "prophecy__temp_parent_all_only_seed_pipeline_1_post_Join_1_0",
+    "targetPort" : "input_port_0_1"
+  }, {
+    "id" : "tnfGFTlisqiM1mH2V_bpK$$J2-ysT3nGl4AhpRaafPY7",
+    "source" : "Cd72-cPSgNB06v9AyL9fp",
+    "sourcePort" : "FdDYg4wGHlkESXhqUsAqs",
+    "target" : "FtBsO732T--BsuggEPyj7$$teaQIF9Vr5qpySB5o25wI",
+    "targetPort" : "HOSkXy9u8kYcJQBtKgHZU$$SFLZofEPbdLZl7wqb_T2h"
+  }, {
+    "id" : "8zug5K3oCR4CRdtyI-vaJ",
+    "source" : "Kv_IpNJ6RixqnixS9igvr",
+    "sourcePort" : "DCSL8zogijOzf74dFwqxB",
+    "target" : "FtBsO732T--BsuggEPyj7$$teaQIF9Vr5qpySB5o25wI",
+    "targetPort" : "8YOrAdEcWb2hcpHvvWKhS$$Wm7qcMK6ENlO8N-GE_b89"
+  } ],
+  "component" : "Model"
+}

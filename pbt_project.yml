@@ -798,8 +798,6 @@ sqlSeeds:
     createdAt: '2023-04-16 04:40:59'
 sqlSources: {}
 sqlUnreferencedSources: {}
-sqlOrchestratorPipelines: {}
-sqlBusinessApps: {}
 sqlPipeline:
   name: sqlPipeline
   description: null
@@ -826,3 +824,16 @@ projectDependencies:
 flags:
   shouldAddDefaultDependenciesIfAbsent: true
 pipelineConfigurations: {}
+sqlOrchestratorPipelines:
+  .prophecy/metadata/sqlorchestratorpipeline/parent_all_only_seed_pipeline_1:
+    name: parent_all_only_seed_pipeline_1
+    schema: null
+    description: null
+    author: abhisheks+e2etests@prophecy.io
+    files:
+    - models/parent_all_only_seed_pipeline_1/model_parent_all_only_seed_pipeline_1_Join_1.sql
+    - models/parent_all_only_seed_pipeline_1/schema.yml
+    - .prophecy/ide/pipelines/parent_all_only_seed_pipeline_1.json
+    - pipelines/parent_all_only_seed_pipeline_1.py
+    createdAt: '2025-04-15 13:41:16'
+sqlBusinessApps: {}
