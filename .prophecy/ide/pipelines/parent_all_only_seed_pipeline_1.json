@@ -2,7 +2,7 @@
   "id" : "parent_all_only_seed_pipeline_1",
   "metainfo" : {
     "label" : "parent_all_only_seed_pipeline_1",
-    "autoLayout" : true,
+    "autoLayout" : false,
     "version" : 1,
     "configuration" : {
       "schema" : {
