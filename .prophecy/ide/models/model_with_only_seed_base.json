@@ -78,8 +78,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 60,
-        "y" : 20,
+        "x" : 140,
+        "y" : -140,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "comment" : "Combines country classification with service classification to analyze service availability across different countries.",
