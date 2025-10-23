@@ -76,7 +76,735 @@
     }, {
       "type" : "Catalog",
       "name" : "hive_metastore",
-      "children" : [ ]
+      "children" : [ {
+        "type" : "Schema",
+        "name" : "6b418a6c8a0d64099bf222f6b86d0b51",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "aditya",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "anewera",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "arpit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "arun123",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "asadas",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "avpreet",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "bad_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "bad_schema1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "bleeeeee",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "chirag",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dbt_test__audit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dddd",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default123",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_dbt_test__audit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_demo_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_gaga1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_pp_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_qa_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_qa_db_warehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default_qa_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "delta01",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "demo_db",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dest_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dev",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dsdsdsds",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "eeewe",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "gaga",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "gaga1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "khagesh",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "kishore",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "kishore_orch",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "lakehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "lalith",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "macie",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "maciej",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "model_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "new_schema_random",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "nnmmnm",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "nonexistingschema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "orch_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "piyush_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "poc_fedex",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "pooja",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "pp_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy___prophecy_url_placeholder__",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_abhishek_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_amgentest_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_anshul1_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_app",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_appdr_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_ash_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_ashishk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_ashk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_beta",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_beta_app",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_byos",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_chiragk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_cz_app",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_darkcluster_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_deeptanshuk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_execution_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_executionk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_gembuilder_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_hotfix",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_hotfix1_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_hotfix_test_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_hsbctest_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_jasvinder_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_jasvinderk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_jnj1_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_jnjtest_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_jnjupgrade_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_keskark3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_khageshk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_kishore_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_kishorek3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_kshitiz1_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_kshitizk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_kuldeeps1k3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_metadata_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_nadeesh_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_onboarding_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_performance_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_perftest",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_poc",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_prashantpk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_qaupgrade_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_rajat_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_rajat_dev_cloud234",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_rajat_dev_cloud2345",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_rajatk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_rashmink3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_regression1_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_regression2_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_regression3_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_regression_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_rohitk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_saik3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_slimimage5_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_slimimage_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_sony_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_staging",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_staging_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_sumit_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_tanmayk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_uitesting",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_utkarshgk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_vaibhavgk3s_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_visatest1_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_visatest_dev_cloud",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prophecy_zionsbank_app",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_20k_tables_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_20k_tables_testssss",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database_acl",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database_acl_no_view",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database_qa_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database_qa_db_warehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database_qa_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_db_warehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_db_warehouse_dbt_test__audit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_db_warehouse_qa_db_warehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_db_warehouse_qa_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_db_warehouse_qa_upload_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_db_warehouse_unique_latest",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_dlt_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_dlt_python_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_schema_qa_db_warehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_schema_qa_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_suggestion_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test_copilot_analytical_10_tables",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test_copilot_analytical_20_tables",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test_copilot_expressions",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test_jnj",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test_random",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test_random1231234",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_tpcds",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_upload_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_upload_schema_1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_upload_schema_1d",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_warehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "refresh_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "refresh_schema_new",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "refresh_schema_new_1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "refresh_schema_new_123",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "replace_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "rnadom___schema123",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "rohit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "rohit_temp",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "scchemahere",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sdsdsdds",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "something_all_random_1231234534534",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sony",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sparklearnerdev",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sparklearnerdevdfgdfgdfgdf",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sparklearnerdevdgffdg",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sparklearnerdevghjghjghj",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "tanmay",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "tpcds_1gb",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "unique_latest",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "upload_latest",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "upload_spark",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "upload_spark_1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "upload_sparks",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "upload_sparkssss",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "vaibhav",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "werwr",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "windowstest",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "wqqw",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "xmltest",
+        "children" : [ ]
+      } ]
     }, {
       "type" : "Catalog",
       "name" : "kaustubh",
