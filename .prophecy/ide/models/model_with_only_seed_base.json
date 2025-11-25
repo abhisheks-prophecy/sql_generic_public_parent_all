@@ -51,8 +51,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "country_classification",
-        "x" : -100,
-        "y" : -380,
+        "x" : -360,
+        "y" : -360,
         "phase" : 0,
         "isLabelGrayed" : false
       },
@@ -78,8 +78,8 @@
       "component" : "Join",
       "metadata" : {
         "label" : "Join_1",
-        "x" : 180,
-        "y" : -120,
+        "x" : 140,
+        "y" : -540,
         "phase" : 0,
         "macroDependencies" : [ "SQL_BaseGitDepProjectAllFinal.qa_macro_call_another_macro_base_column" ],
         "comment" : "Combines country classification with service classification to analyze service availability across different countries.",
