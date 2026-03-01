@@ -83763,7 +83763,247 @@
     }, {
       "type" : "Catalog",
       "name" : "qa_team",
-      "children" : [ ]
+      "children" : [ {
+        "type" : "Schema",
+        "name" : "'schedule'",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "a_fast_switch_test_1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "a_fast_switch_test_2",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "a_fast_switch_test_3",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "acxiom_synthetic_data",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "alteryx_pov_pfizer",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "aman",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "arpit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "aruns",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "avpreettables",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "compressed_datasets",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "cross_provider_common_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dbt_test__audit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "default",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dest_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dest_scaling",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dxcfgvhbj",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "flatten_data",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "information_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "mfa",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "new_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "pfizer_large",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "pfizer_small",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakhar",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakhar_nba_new",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakharnba",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakharnba2targets",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakharnbanew",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakharnew",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakharnew1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakharnew12",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakharnewtarget1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakhartarget2",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakhartargets",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakhartargets1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "prakhartargets2",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa-supported-characters",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_automated_kg_test",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_automation",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_chat_nba_targets",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_database1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_databasedfzveafv",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_databaseqdqwed",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_db_warehouse",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_dest_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_do_anything",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_orchestration",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_orchestration_prakhar",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_perfusecases",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_test_copilot_expressions",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_tpcds",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_upload",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_very_small_db",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "rohit",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sf1gb",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "synthetic_data",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "tpcds",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "tpcds_1gb",
+        "children" : [ ]
+      } ]
     }, {
       "type" : "Catalog",
       "name" : "rajat",
