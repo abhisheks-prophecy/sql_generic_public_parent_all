@@ -24,8 +24,8 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "service_classification",
-        "x" : -120,
-        "y" : 20,
+        "x" : -360,
+        "y" : -100,
         "phase" : 0,
         "isLabelGrayed" : false
       },
