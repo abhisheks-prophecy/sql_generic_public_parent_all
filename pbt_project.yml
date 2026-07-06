@@ -26,7 +26,25 @@ subgraphs: {}
 sqlModels:
   .prophecy/metadata/sqlmodels/model_with_only_seed_base:
     name: model_with_only_seed_base
-    schema: null
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: country_code
+        dataType:
+          type: String
+      - name: country_label
+        dataType:
+          type: String
+      - name: code_1
+        dataType:
+          type: String
+      - name: service_label_1
+        dataType:
+          type: String
+      - name: c_macro2
+        dataType:
+          type: String
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -332,22 +350,22 @@ sqlSeeds:
           type: String
       - name: Period_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: Data_value_1
         dataType:
-          type: Float
+          type: Decimal(38, 4)
       - name: Suppressed_1
         dataType:
           type: String
       - name: STATUS_1
         dataType:
-          type: String
+          type: Boolean
       - name: UNITS_1
         dataType:
           type: String
       - name: Magnitude_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: Subject_1
         dataType:
           type: String
@@ -385,22 +403,22 @@ sqlSeeds:
           type: String
       - name: Period_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: Data_value
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: Suppressed_1
         dataType:
           type: String
       - name: STATUS_1
         dataType:
-          type: String
+          type: Boolean
       - name: UNITS_1
         dataType:
           type: String
       - name: Magnitude_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: Subject_1
         dataType:
           type: String
@@ -435,10 +453,10 @@ sqlSeeds:
       fields:
       - name: NZHSC_Level_2_Code_HS4
         dataType:
-          type: Integer
+          type: Bigint
       - name: NZHSC_Level_1_Code_HS2
         dataType:
-          type: Integer
+          type: Bigint
       - name: NZHSC_Level_2
         dataType:
           type: String
@@ -473,19 +491,19 @@ sqlSeeds:
           type: String
       - name: FTHG_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: FTAG_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: FTR_1
         dataType:
           type: String
       - name: HTHG_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: HTAG_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: HTR_1
         dataType:
           type: String
@@ -494,157 +512,157 @@ sqlSeeds:
           type: String
       - name: HS_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: AS_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: HST_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: AST_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: HF_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: AF_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: HC_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: AC_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: HY_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: AY_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: HR_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: AR_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: B365H_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: B365D_1
         dataType:
-          type: Float
+          type: Decimal(38, 4)
       - name: B365A_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BWH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BWD_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BWA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: IWH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: IWD_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: IWA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: PSH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: PSD_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: PSA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: WHH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: WHD_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: WHA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: VCH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: VCD_1
         dataType:
-          type: Float
+          type: Decimal(38, 4)
       - name: VCA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: Bb1X2_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: BbMxH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAvH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbMxD_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAvD_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbMxA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAvA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbOU_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: BbMx_2_5
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAv_2_5
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbMx_2_5
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAv_2_5
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAH_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: BbAHh_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbMxAHH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAvAHH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbMxAHA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: BbAvAHA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: PSCH_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: PSCD_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: PSCA_1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
     description: null
     author: abhisheks+e2etests@prophecy.io
     files:
@@ -661,22 +679,22 @@ sqlSeeds:
           type: String
       - name: Period1
         dataType:
-          type: Float
+          type: Decimal(38, 5)
       - name: Data_value
         dataType:
-          type: Float
+          type: Decimal(38, 6)
       - name: Suppressed1
         dataType:
           type: String
       - name: STATUS1
         dataType:
-          type: String
+          type: Boolean
       - name: UNITS1
         dataType:
           type: String
       - name: Magnitude_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: Subject_1
         dataType:
           type: String
@@ -711,13 +729,13 @@ sqlSeeds:
       fields:
       - name: Year_1
         dataType:
-          type: Integer
+          type: Bigint
       - name: Industry_aggregation_NZSIOC
         dataType:
           type: String
       - name: Industry_code_NZSIOC
         dataType:
-          type: Integer
+          type: Bigint
       - name: Industry_name_NZSIOC
         dataType:
           type: String

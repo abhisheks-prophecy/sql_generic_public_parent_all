@@ -156,8 +156,8 @@
       "component" : "TargetModel",
       "metadata" : {
         "label" : "model_with_only_seed_base",
-        "x" : 340,
-        "y" : 40,
+        "x" : 720,
+        "y" : -300,
         "phase" : 0,
         "macroDependencies" : [ ],
         "isLabelGrayed" : false

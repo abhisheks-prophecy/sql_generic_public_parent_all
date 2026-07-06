@@ -83765,6 +83765,10 @@
       "name" : "qa_team",
       "children" : [ {
         "type" : "Schema",
+        "name" : "'qa_database'",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "'schedule'",
         "children" : [ ]
       }, {
@@ -83801,11 +83805,39 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "avpreet_tables",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "avpreet_targets",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "avpreet_views",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "avpreettables",
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "avpreettables1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "avpreettabless",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "bronze_cdm",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "compressed_datasets",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "cross",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83821,7 +83853,15 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "dest",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "dest_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dest_qa",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83829,7 +83869,35 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "destination",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "destination_qa",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dimensions",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dipanshu",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "dipanshu2",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "dxcfgvhbj",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "eval_duckdb",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "filtered_data",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83837,7 +83905,19 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "gender_data",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "information_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "kg_test_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "kg_test_schema",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83845,7 +83925,31 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "new_orch1",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "new_orch2",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "new_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "newone",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "newschema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "neww",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "ooii",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83925,11 +84029,11 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
-        "name" : "qa_database",
+        "name" : "qa_chayan",
         "children" : [ ]
       }, {
         "type" : "Schema",
-        "name" : "qa_database1",
+        "name" : "qa_database",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83945,7 +84049,15 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "qa_dest",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "qa_dest_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_destination",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83957,7 +84069,19 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "qa_orchestration_avpreettables",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "qa_orchestration_prakhar",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_orchestration_qa_database",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_orchestration_qa_orchestration",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83965,7 +84089,15 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "qa_reporting",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "qa_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "qa_target",
         "children" : [ ]
       }, {
         "type" : "Schema",
@@ -83981,6 +84113,10 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "qa_upload_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "qa_very_small_db",
         "children" : [ ]
       }, {
@@ -83989,11 +84125,51 @@
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "sales_performance_management_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "sales_schema_avpreet",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "schema_01",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "sf1gb",
         "children" : [ ]
       }, {
         "type" : "Schema",
+        "name" : "staging",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
         "name" : "synthetic_data",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "tanmay",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "target",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "test13march",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "test_db",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "test_sales",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "testschema",
         "children" : [ ]
       }, {
         "type" : "Schema",
